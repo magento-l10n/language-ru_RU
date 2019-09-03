@@ -2333,6 +2333,7 @@ Payment,Оплата
 "Forgot Password","Забыли пароль"
 item,позиция
 items,позиции
+"Go to Checkout","Оформить заказ"
 "View and edit cart","Просмотр и редактирование корзины"
 "No Payment Methods","Нет способов оплаты"
 "Shipping Methods","Метод доставки"
@@ -3551,6 +3552,7 @@ Expires,Истекает
 "Enter SKU","Введите SKU"
 Created:,Создан:
 "Thank you,","Спасибо,"
+"Go to Checkout?","Оформить заказ?"
 "Created Date","Дата создания"
 "Delete Selected Problems","Удалить выбранные проблемы"
 Pause,Пауза
@@ -3586,6 +3588,7 @@ Cancelled,Отменено
 Help,Помощь
 "View Demo","Просмотреть демо"
 "Invalid block type","Неверный тип блока"
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal не может обрабатывать заказы с нулевым балансом. Чтобы оформить покупку, пожалуйста, пройдите стандартный процесс оформления заказа."
 "Every 3 days","Каждые 3 дня"
 "Every 7 days","Каждые 7 дней"
 "Every 10 days","Каждые 10 дней"
