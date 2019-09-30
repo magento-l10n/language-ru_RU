@@ -445,7 +445,10 @@ Debug,Отладка
 "Maximum Order Total","Сумма максимального заказа"
 "Sort Order","Порядок Сортировки"
 "Unable to place order. Please try again later.","Не удалось разместить заказ. Пожалуйста, повторите попытку позже."
+"There was an error while trying to process the request.","Во время обработки запроса произошла ошибка."
 Environment,"Окружающая среда"
+"Signature Key","Ключ подписи"
+"Advanced Authorize.Net Settings","Расширенные настройки Authorize.Net"
 options,параметры
 "Select all","Выбрать все"
 "Deselect all","Отменить весь выбор"
@@ -1331,6 +1334,8 @@ Message:,Сообщение:
 "Add Products to New Option","Добавить товары новому варианту"
 "Add Products to Option ""%1""","Добавить товары в вариант «%1»"
 "Special Price","Специальная цена"
+"""option_id"" and ""parent_id"" values should be specified","Должны быть указаны значения ""option_id"" и ""parent_id"""
+"""sku"" value should be specified","Должно быть указано значение ""sku"""
 Always,Всегда
 "After number of attempts to login","После нескольких попыток авторизоваться"
 "Provided form does not exist","При условии, если форма не существует"
