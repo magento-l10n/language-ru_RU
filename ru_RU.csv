@@ -2767,6 +2767,7 @@ Monthly,Ежемесячно
 "Test exception","Тестовое исключение"
 "Cron (Scheduled Tasks)","Cron (запланированные задачи)"
 "Cron configuration options for group:","Параметры конфигурации в cron для группы:"
+"Generate Schedules Every","Генерировать расписание каждые"
 "History Cleanup Every","Очистка журнала каждые"
 "Use Separate Process","Используйте отдельный процесс"
 "Save Currency Rates","Сохранить валюту"
