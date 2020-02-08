@@ -330,6 +330,7 @@ Other,Другие
 "Please select an industry.","Пожалуйста, выберите отрасль."
 "The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Данные неверны. Введите данные как строку или данные, которые могут быть преобразованы в строку и повторите попытку."
 "The data is invalid. Enter the data as a string and try again.","Данные неверны. Введите данные как строку и попробуйте еще раз."
+"The data is invalid. Use a valid cipher method and try again.","Недопустимые данные. Используйте правильный метод шифрования и повторите попытку."
 "Enter the encryption key and try again.","Введите ключ шифрования и повторите попытку."
 "The ""%1"" source doesn't exist.","Источник «%1» не существует."
 "Retry Synchronization","Повторите попытку синхронизации"
@@ -444,11 +445,25 @@ Debug,Отладка
 "Minimum Order Total","Сумма минимального заказа"
 "Maximum Order Total","Сумма максимального заказа"
 "Sort Order","Порядок Сортировки"
+"Cannot place order.","Не удается разместить заказ."
+"'Gateway error: ' .","'Ошибка шлюза: ' ."
 "Unable to place order. Please try again later.","Не удалось разместить заказ. Пожалуйста, повторите попытку позже."
-"There was an error while trying to process the request.","Во время обработки запроса произошла ошибка."
-Environment,"Окружающая среда"
+"A server error stopped your order from being placed. Please try to place your order again.","Ошибка сервера остановила размещение вашего заказа. Пожалуйста, попробуйте снова разместить ваш заказ."
+"The transaction details are unavailable. Please try again later.","Подробности транзакции недоступны. Пожалуйста, повторите попытку позже."
+"Authorize.Net Direct Post (Deprecated)","Authorize.Net прямая запись (устарело)"
 "Signature Key","Ключ подписи"
+"There was an error while trying to process the request.","Во время обработки запроса произошла ошибка."
+"This transaction cannot be refunded with its current status.","Эта транзакция не может быть возвращена с ее текущим состоянием."
+"The authenticity of the gateway response could not be verified.","Аутентификация ответа шлюза не может быть проверена."
+"Basic Authorize.Net Settings","Базовые настройки Authorize.Net"
+Environment,"Окружающая среда"
+"Public Client Key","Открытый ключ клиента"
+"Merchant MD5 (deprecated)","Торговый MD5 (устаревший)"
 "Advanced Authorize.Net Settings","Расширенные настройки Authorize.Net"
+"Enable Credit Card Verification Field","Включить поле проверки кредитной карты"
+"Invalid request to gateway.","Неверный запрос на шлюз."
+"Invalid gateway credentials.","Неверные учетные данные шлюза."
+"Transaction has been declined. Please try again later.","Транзакция была отклонена, пожалуйста, повторите попытку позже."
 options,параметры
 "Select all","Выбрать все"
 "Deselect all","Отменить весь выбор"
@@ -730,6 +745,7 @@ Loading...,Загрузка...
 "Warning message","Предупреждающее сообщение"
 "This operation can take a long time","Эта операция может занять много времени"
 "Allow everything","Разрешить все"
+"Magento Admin","Администратор Magento"
 "Global Search","Глобальный поиск"
 Marketing,Маркетинг
 "SEO & Search","SEO & Поиск"
@@ -742,6 +758,7 @@ Settings,Настройки
 Attributes,Атрибуты
 "Other Settings","Другие настройки"
 "Data Transfer","Обмен данными"
+"Connect Manager","Подключить менеджер"
 "Package Extensions","Пакет расширений"
 Tools,Инструменты
 "Clean Cache Actions","Очистить кеш действий"
@@ -751,6 +768,7 @@ Tools,Инструменты
 "Catalog Images Cache","Каталог кэша изображений"
 "Flush Js/Css","Скрытой Js/Css"
 "Flush Static Files","Очистка статических файлов"
+"Web Setup Wizard","Мастер настройки"
 Currency,Валюта
 Communications,Связь
 Services,Сервисы
