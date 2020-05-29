@@ -2366,6 +2366,7 @@ items,позиции
 "Items in Cart","Товары в корзине"
 "Require Customer To Be Logged In To Checkout","Клиент должен войти в систему, чтобы оформить заказ"
 of,из
+"The shipping information was unable to be saved. Verify the input data and try again.","Информация о доставке не может быть сохранена. Проверьте введенные данные и повторите попытку."
 "Terms and Conditions","Условия и соглашения"
 "Add New Condition","Добавить новое условие"
 "Save Condition","Сохранить условие"
