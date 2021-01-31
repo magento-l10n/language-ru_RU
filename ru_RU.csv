@@ -453,15 +453,21 @@ Debug,Отладка
 "Authorize.Net Direct Post (Deprecated)","Authorize.Net прямая запись (устарело)"
 "Signature Key","Ключ подписи"
 "There was an error while trying to process the request.","Во время обработки запроса произошла ошибка."
-"This transaction cannot be refunded with its current status.","Эта транзакция не может быть возвращена с ее текущим состоянием."
-"The authenticity of the gateway response could not be verified.","Аутентификация ответа шлюза не может быть проверена."
+"This transaction cannot be refunded with its current status.","Эта транзакция не может быть возвращена в её текущем состоянии."
+"The authenticity of the gateway response could not be verified.","Подлинность ответа шлюза не может быть проверена."
+"Authorize Only","Только aвторизировать"
+"Authorize and Capture","Авторизировать и Захватить"
 "Basic Authorize.Net Settings","Базовые настройки Authorize.Net"
-Environment,"Окружающая среда"
+Environment,Окружение
+"Payment Action","Платежное действие"
 "Public Client Key","Открытый ключ клиента"
-"Merchant MD5 (deprecated)","Торговый MD5 (устаревший)"
+"Merchant MD5 (deprecated)","MD5 торговца (устаревший)"
 "Advanced Authorize.Net Settings","Расширенные настройки Authorize.Net"
 "Enable Credit Card Verification Field","Включить поле проверки кредитной карты"
-"Invalid request to gateway.","Неверный запрос на шлюз."
+"Minimum Order Total","Минимальная сумма заказа"
+"Maximum Order Total","Максимальная сумма заказа"
+"Sort Order","Порядок сортировки"
+"Invalid request to gateway.","Неверный запрос к шлюзу."
 "Invalid gateway credentials.","Неверные учетные данные шлюза."
 "Transaction has been declined. Please try again later.","Транзакция была отклонена, пожалуйста, повторите попытку позже."
 options,параметры
@@ -661,6 +667,8 @@ System,Система
 "Last 24 Hours","Последние 24 часа"
 "Last 7 Days","Последние 7 дней"
 "Current Month","Текущий месяц"
+YTD,"C начала года"
+2YTD,"С начала прошлого года"
 "Authentication storage is incorrect.","Проверка магазина некорректна."
 "You did not sign in correctly or your account is temporarily disabled.","Вы не вошли в систему правильно или ваша учетная запись временно отключена."
 "Authentication error occurred.","Произошла ошибка аутентификации."
@@ -701,6 +709,7 @@ password,пароль
 "Go Today","Перейти сегодня"
 Previous,Предыдущее
 Next,Следующее
+WK,Нед.
 Time,Время
 Hour,Час
 Minute,Минута
@@ -754,6 +763,7 @@ Content,Контент
 Elements,Элементы
 Design,Дизайн
 Schedule,Расписание
+"Content translation","Перевод контента"
 Settings,Настройки
 Attributes,Атрибуты
 "Other Settings","Другие настройки"
@@ -803,6 +813,7 @@ Developer,Разработчик
 "Merge CSS Files","Группирование файлов CSS"
 "Minify CSS Files","Минификация CSS-файлов"
 "Image Processing Settings","Настройки обработки изображений"
+"Image Adapter","Адаптер изображений"
 "Static Files Settings","Настройки статических файлов"
 "Sign Static Files","Регистрация статических файлов"
 "Country Options","Параметры страны"
@@ -840,6 +851,7 @@ Admin,Администратор
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Шаблон E-mail выбран на основе темы резервного варианта при выборе параметра «По умолчанию»."
 "Forgot and Reset Email Sender","Забыли и сброс E-mail отправителя"
 "Startup Page","Стартовая страница"
+"Admin Base URL","Базовый URL административной панели"
 "Use Custom Admin URL","Использование пользовательского администратора URL"
 "Custom Admin URL","Пользовательский Admin URL"
 "Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Убедитесь, что Base URL заканчивается на «/» (косая черта), например http://yourdomain/magento/"
@@ -861,11 +873,17 @@ Web,Веб
 "Auto-redirect to Base URL","Автоматическая переадресация на Base URL"
 "Search Engine Optimization","Поисковая оптимизация"
 "Use Web Server Rewrites","Использование Web Server Rewrites"
+"Base URLs","Базовые URL'ы"
+"Base URL","Базовый URL"
 "Specify URL or {{base_url}} placeholder.","Укажите место URL или {{base_url}}."
+"Base Link URL","Базовый URL ссылок"
 "Base URL for Static View Files","Base URL для просмотра статических файлов"
 "May be empty or start with {{unsecure_base_url}} placeholder.","Может быть пустым или начните с места {{unsecure_base_url}}."
 "Base URL for User Media Files","Base URL для пользователей мультимедийных файлов"
+"Base URLs (Secure)","Базовые URL'ы (безопасные)"
+"Secure Base URL","Безопасный базовый URL"
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Укажите место URL или {{base_url}} или {{unsecure_base_url}}."
+"Secure Base Link URL","Безопасный базовый URL ссылок"
 "Secure Base URL for Static View Files","Secure Base URL для просмотра статических файлов"
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Может быть пустым или начинаться с места {{secure_base_url}} или {{unsecure_base_url}}."
 "Secure Base URL for User Media Files","Secure Base URL для пользователей мультимедийных файлов"
@@ -914,6 +932,7 @@ Pagination,Пагинация
 "You need more permissions to access this.","Необходимы дополнительные права, чтобы получить доступ к этому."
 "Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Все права защищены."
 "Report Bugs","Сообщить об ошибке"
+"Themes JavaScript and CSS files combined to one file.","JavaScript и CSS файлы темы объединены в один файл."
 "Design Theme","Тема Дизайн"
 "User-Agent Exceptions","User-Agent исключения"
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Альтернативный текст для следующей ссылки на разбиение на страницы меню. Если пустое, будет использоваться изображение стрелки по умолчанию."
@@ -1177,6 +1196,7 @@ MM,ММ
 "Enable PayPal through Braintree","Включить PayPal через Braintree"
 "Vault Enabled","Хранилище включено"
 "Basic Braintree Settings","Основные настройки Braintree"
+Environment,"Окружающая среда"
 "Merchant ID","ID продавца"
 "Public Key","Открытый ключ"
 "Private Key","Секретный ключ"
@@ -4766,7 +4786,7 @@ Translate,Перевести
 "Please enter a valid value, ex: 10,20,30","Пожалуйста, введите допустимое значение, прим.: 10,20,30"
 "Please enter a valid value from list","Пожалуйста, введите допустимое значение из списка"
 "Please enter valid SKU key.","Пожалуйста, введите действительный ключ артикула."
-"Please enter a valid number.","Пожалуйста, введите действительный номер."
+"Please enter a valid number.","Пожалуйста, укажите число."
 "This is required field","Это поле обязательно для заполнения"
 "Admin is a required field in each row.","Поле Администратор обязательное в каждой строке."
 "Password cannot be the same as email address.","Пароль не должен совпадать c адресом электронной почты."
