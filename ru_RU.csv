@@ -980,6 +980,7 @@ MM,ММ
 "Customer does not have any credit cards.","У клиента нет кредитных карт."
 "Transaction has already been completely refunded.","Транзакция уже полностью возвращена."
 "Payment instrument type is not accepted by this merchant account.","Тип инструмента оплаты не принимается этим торговым счётом."
+"Processor authorization code cannot be set unless for a voice authorization.","Код авторизации процессора может быть установлен только для голосовой авторизации."
 "Refund amount is too large.","Сумма возмещения является слишком большой."
 "Settlement amount is too large.","Расчетная сумма является слишком большой."
 "Cannot provide a billing address unless also providing a credit card.","Не может быть указан платежный адрес, если не предоставлена кредитная карта."
@@ -1130,6 +1131,7 @@ Address,Адрес
 State/Province,Область
 "Please select region, state or province","Пожалуйста, выберите область"
 "Zip/Postal Code","Почтовый индекс"
+"Add Credit Card","Добавить кредитную карту"
 "Card Number","Номер карты"
 "Is Default","По умолчанию"
 "An error occured with payment processing.","Произошла ошибка при обработке платежа."
@@ -2146,10 +2148,14 @@ Error!,Ошибка!
 "Clear Shopping Cart","Очистить корзину"
 "Update Shopping Cart","Обновить корзину"
 "Update Cart","Обновление корзину"
+"You have no items in your shopping cart.","У вас нет товаров в вашей корзине."
 "Click <a href=""%1"">here</a> to continue shopping.","Нажмите <a href=""%1""> здесь</a>, чтобы продолжить покупки."
+"Estimate Shipping and Tax","Расчет стоимости доставки и налога"
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Вы добавили %1 в вашу <a href=""%2"">корзину</a>."
 "Order #","Заказ #"
 "Proceed to Checkout","Перейти к оформлению заказа"
 "Your order number is: %1.","Ваш номер заказа: %1."
+"Your order # is: <span>%1</span>.","Ваш заказ №: <span>%1</span>."
 "We'll email you an order confirmation with details and tracking info.","Мы вышлем вам подтверждение заказа с деталями о отслеживании."
 Reason,Причина
 "Checkout Type","Тип проверки"
@@ -2162,14 +2168,17 @@ Total:,Всего:
 "Sign In",Войти
 "Email Address","Адрес электронной почты"
 "Forgot Your Password?","Забыли Ваш пароль?"
+"My billing and shipping address are the same","Мой платёжный адрес и адрес доставки совпадают"
 Update,Обновить
 "Save in address book","Сохранить в адресной книге"
 "You can create an account after checkout.","Вы можете создать учетную запись после оформления заказа."
 Login,Логин
-"Items in Cart","Товары в корзине"
+"Items in Cart","Позиций(и) в корзине"
+"Item in Cart","Позиция в корзине"
 "View and Edit Cart","Просмотр и редактирование корзины"
 "See Details",Подробнее
 "Options Details","Параметры деталей"
+"Cart Subtotal","Итого по корзине"
 "Payment Information","Информация об оплате"
 "No Payment method available.","Способ оплаты не доступен."
 "You can track your order status by creating an account.","Вы можете отслеживать статус заказа, создав учетную запись."
@@ -2179,6 +2188,7 @@ Login,Логин
 edit,изменить
 "Shipping Address","Адрес доставки"
 "New Address","Новый адрес"
+"Order Summary","Итог заказа"
 "Provided Zip/Postal Code seems to be invalid.","Предоставленный почтовый индекс недействителен."
 " Example: "," Пример: "
 "If you believe it is the right one you can ignore this notice.","Если вы считаете, что это правильный вариант, вы можете игнорировать это уведомление."
@@ -3398,6 +3408,7 @@ Interval,Интервал
 "Total Refunded","Всего возвращено"
 "Sales Tax","Налог на продажу"
 "Abandoned carts","Заброшенные корзины"
+"Items in Cart","Товары в корзине"
 Review,Отзыв
 Reviews,Отзывы
 "Product Reviews","Обзор товара"
@@ -3655,6 +3666,7 @@ Complete,Завершен
 "Purchased From","Куплен в"
 "Placed from IP","Размещен с IP"
 "Is Closed",Закрыт
+"Shipped By",Отправлено
 "Tracking Number","Номер отслеживания"
 "ZIP Code","Почтовый индекс"
 "Print Order","Печать Заказа"
@@ -3664,6 +3676,7 @@ Complete,Завершен
 "Credit memo for your %store_name order","Кредит ноты для заказа %store_name"
 "Thank you for your order from %store_name.","Благодарим вас за ваш заказ от %store_name."
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Вы можете проверить статус вашего заказа, <a href=""%account_url"">войдя в свой аккаунт</a>."
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Если у вас есть вопросы о вашем заказе, вы можете написать нам на <a href=""mailto:%store_email"">%store_email</a>"
 "Your Credit Memo #%creditmemo_id for Order #%order_id","#%creditmemo_id ваш кредит ноты для заказа #%order_id"
 "Billing Info","Информация об оплате"
 "Update to your %store_name credit memo","Обновить ваш кредит ноту tore_name %s"
@@ -3675,9 +3688,10 @@ Complete,Завершен
 "Once your package ships we will send you a tracking number.","Как только ваш пакет будет отправлен, мы дадим вам номер для отслеживания."
 "Your Order <span class=""no-link"">#%increment_id</span>","Ваш заказ <span class=""no-link"">#%increment_id</span>"
 "Placed on <span class=""no-link"">%created_at</span>","На <span class=""no-link"">%created_at</span>"
+"Once your package ships we will send an email with a link to track your order.","Как только ваш пакет будет отправлен, мы отправим письмо со ссылкой для отслеживания вашего заказа."
 "Update to your %store_name order","Обновить ваш заказ tore_name %s"
 "Your %store_name order has shipped","%store_name заказ отправлен"
-"Your shipping confirmation is below. Thank you again for your business.","Подтверждение доставки находится ниже. Еще раз спасибо за ваш бизнес."
+"Your shipping confirmation is below. Thank you again for your business.","Подтверждение доставки находится ниже. Еще раз спасибо за ваше время."
 "Your Shipment #%shipment_id for Order #%order_id","Ваш груз #%shipment_id для заказа #%order_id"
 "Update to your %store_name shipment","Обновление для вашего груза tore_name %s"
 Operations,Операция
@@ -3754,6 +3768,7 @@ Successful,Успешно
 "You deleted the search.","Вы удалили поиск."
 "This search no longer exists.","Этот поиск больше не существует."
 "Edit Search","Редактировать поиск"
+"Search entire store here...","Ищите здесь..."
 "There are no search terms available.","Нет доступных поисковых запросов."
 "Search Engine","Поисковая система"
 "By IP and Email","По IP и Email"
@@ -3984,7 +3999,6 @@ error-message,"сообщение об ошибке"
 "View Product","Просмотр продукта"
 "This Wish List has no Items","Этот список желаний не имеет элементов"
 "%1 has been added to your Wish List.","%1 был добавлен в ваш список пожеланий."
-"Click <a href=""%1"">here</a> to continue shopping.","Нажмите <a href=""%1""> здесь</a>чтобы продолжить покупки."
 "RSS link to %1's wishlist","Связь RSS для пожеланий %1"
 "RSS Feed","Подписка RSS"
 "Wish List is empty now.","Список желаний сейчас пуст."
@@ -4057,6 +4071,7 @@ Worldpay,WorldPay
 "Placed on <span class=""no-link"">%created_at</span>","Размещен <span class=""no-link"">%created_at</span>"
 "Update to your %store_name order","Обновление для вашего заказа в %store_name"
 "Your %store_name order has shipped","Ваш заказ в %store_name отправлен"
+"Your shipping confirmation is below. Thank you again for your business.","Подтверждение доставки находится ниже. Еще раз спасибо за ваш бизнес."
 "Your Shipment #%shipment_id for Order #%order_id","Ваш отправление #%shipment_id для заказа #%order_id"
 "Update to your %store_name shipment","Обновление для вашего отправления в %store_name"
 "Backup options","Параметры резервного копирования"
