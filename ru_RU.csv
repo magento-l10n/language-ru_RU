@@ -3915,7 +3915,9 @@ Failures,Неудачи
 Other,Другие
 "Not Selected","Не выбрано"
 "Search All Products","Искать все товары"
+"Add Product by SKU","Добавить товар по артикулу"
 "%s SKU(s) processed successfully","%s артикул(ов) успешно обработано"
+"%1 doesn't implement SortInterface","%1 не реализует SortInterface"
 Attribute,Атрибут
 Operator,Оператор
 "Add Condition","Добавить условие"
