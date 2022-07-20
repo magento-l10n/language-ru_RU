@@ -3431,17 +3431,22 @@ Exception,Исключение
 "Move Selected","Переместить выбранные"
 Merge,Объединить
 Ok,Oк
-"Save Review","Сохранить обзор"
+"Save Review","Сохранить отзыв"
 "New Review","Новый отзыв"
+"Review Details","Подробности отзыва"
 "Product Rating","Рейтинг товара"
 Nickname,Псевдоним
-"Save and Next","Сохранить и Далее"
+Previous,"Предыдущий отзыв"
+"Save and Previous","Сохранить и перейти к предыдущему"
+"Save and Next","Сохранить и перейти к следующему"
+Next,"Следующий отзыв"
 "Delete Review","Удалить отзыв"
 "Edit Review '%1'","Редактировать отзыв '%1'"
 Administrator,Администратор
 Author,Автор
 "Summary Rating","Общий рейтинг"
 "Update Status","Обновить статус"
+Customer,Покупатель
 "Pending Reviews","Ожидающие отзывы"
 "All Reviews of Customer `%1`","Все отзывы от клиента `%1`"
 "All Reviews of Product `%1`","Все отзывы на товар `%1`"
@@ -3472,9 +3477,11 @@ Rating,Рейтинг
 "View All","Посмотреть все"
 "Your Review","Ваш отзыв"
 "Back to My Reviews","Вернуться к моим отзывам"
+"Be the first to review this product","Оставьте отзыв первым"
 "Write Your Own Review","Напишите свой собственный отзыв"
 "Your Rating","Ваша оценка"
-"Submit Review","Отправить рецензию"
+"Submit Review","Отправить отзыв"
+"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Отзывы могут оставлять только авторизованные пользователи. Пожалуйста, <a href=""%1"">войдите</a> или <a href=""%2"">зарегистрируйтесь</a>"
 "Add Your Review","Добавьте ваш отзыв"
 "%1 Review(s)","Отзывы (%1)"
 "Review by",Обзор
