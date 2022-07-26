@@ -3368,10 +3368,27 @@ Partner,Партнер
 "Default Product Price","Цена продукта по умолчанию"
 Price:,Цена:
 Url,URL-адрес
+"Preview Image",Превью
+"Get Video Information","Загрузить информацию о видео"
+"Hide from Product Page","Скрыть со страницы товара"
+"YouTube and Vimeo supported.","Поддерживаются YouTube и Vimeo."
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Поддерживается Vimeo.<br />Чтобы добавить видео из YouTube, пожалуйста, <a href=""%1"">укажите ключ YouTube API</a>."
 "Add Video","Добавить видео"
 "Delete video","Удалить видео"
+Title:,Заголовок:
+Uploaded:,Загружено:
+Duration:,Длительность:
+"Youtube API key is invalid","Некорректный ключ YouTube API"
+"Video cant be shown due to the following reason: ","Видео не может быть показано по следующей причине: "
+"Video not found","Видео не найдено"
 "New Video","Новое видео"
+"Edit Video","Редактировать видео"
 "Images and Videos","Изображения и видео"
+"YouTube API Key","Ключ YouTube API"
+"Autostart base video","Автозапуск главного видео"
+"Show related video","Показывать связанные видео"
+"Auto restart video","Автоматический перезапуск видео"
+"Images And Videos","Изображения и видео"
 "Edit Catalog Price Rules","Изменение правила цен в каталоге"
 "The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.","Загруженный файл CSV не содержит столбец с меткой SKU. Убедитесь, что первый столбец обозначен как SKU и, что каждая строка в файле содержит значение SKU. Затем загрузите файл снова."
 "The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.","Файл не может быть загружен, так как имеет неверный формат. Пожалуйста, выберите для загрузки файл в формате CSV."
