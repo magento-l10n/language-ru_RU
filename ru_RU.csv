@@ -1,10 +1,12 @@
 All,Все
 None,Нет
-"Allowed Scopes","Допустимые области"
+"Allowed Scopes","Разрешённые области"
+"More permissions are needed to delete the ""%1"" item.","У вас недостаточно прав для удаления товаров ""%1""."
 "You need more permissions to apply some of the rule updates.","У вас недостаточно прав для изменения некоторых правил."
 "More permissions are needed to view this item.","У вас недостаточно прав для просмотра этого элемента."
 "More permissions are needed to save this item.","У вас недостаточно прав для сохранения этого элемента."
 "You need more permissions to access website ""%1"".","У вас недостаточно прав для доступа к веб-сайту «%1»."
+"More permissions are needed to save this setting.","У вас недостаточно прав для сохранения этой настройки."
 "Role Scopes","Области ролей"
 Custom,Выборочный
 "Read Details",Подробнее
@@ -524,7 +526,7 @@ Submit,Отправить
 "An error occurred while clearing the JavaScript/CSS cache.","Произошла ошибка при очистке кэша JavaScript/CSS."
 "The static files cache has been cleaned.","Очистить кэш статических файлов."
 "You flushed the cache storage.","Сброс кэша хранения."
-"The Magento cache storage has been flushed.","Кэш-хранилище Magento было очищено."
+"The Magento cache storage has been flushed.","Хранилище кэша Magento было очищено."
 "Cache Management","Управление кэшем"
 "You can't change status of cache type(s) in production mode","Нельзя изменить статус типа кэширования в режиме производства"
 "%1 cache type(s) disabled.","%1 типы кэша отключены."
@@ -629,9 +631,9 @@ Minute,Минута
 "Report an Issue","Сообщить о проблеме"
 "Stores Configuration","Конфигурация Магазина"
 "Additional Cache Management","Управление дополнительным кэшем"
-"Flush Catalog Images Cache","Очистка каталога кэша изображений"
+"Flush Catalog Images Cache","Очистка кэша изображений каталога"
 "Pregenerated product images files","Предварительно созданные изображения товаров"
-"Flush JavaScript/CSS Cache","Очистка кеша JavaScript/CSS"
+"Flush JavaScript/CSS Cache","Очистка кэша JavaScript/CSS"
 "Themes JavaScript and CSS files combined to one file","JavaScript и CSS файлы объединены в один файл"
 "Flush Static Files Cache","Очистка кэша статических файлов"
 "Preprocessed view files and static files","Предварительно обработанные файлы просмотра и статические файлы"
@@ -677,6 +679,8 @@ Attributes,Атрибуты
 "Connect Manager","Подключить менеджер"
 "Package Extensions","Пакет расширений"
 Tools,Инструменты
+"Flush Js/Css","Очистить JS/CSS"
+"Flush Static Files","Очистка статических файлов"
 Currency,Валюта
 Communications,Связь
 Services,Сервисы
@@ -708,6 +712,7 @@ Developer,Разработчик
 "Minify CSS Files","Минификация CSS-файлов"
 "Image Processing Settings","Настройки обработки изображений"
 "Image Adapter","Адаптер изображений"
+"When the adapter was changed, please flush Catalog Images Cache.","Пожалуйста, очистите кэш изображений каталога после изменения адаптера."
 "Static Files Settings","Настройки статических файлов"
 "Sign Static Files","Регистрация статических файлов"
 "Country Options","Параметры страны"
@@ -1367,6 +1372,7 @@ Empty,Пустой
 "For internal use","Для внутреннего использования"
 "Based On","Основано на"
 "Edit Attribute Set Name","Изменить имя набора атрибутов"
+"Attribute Set Information","Информация о наборе атрибутов"
 "Add New Attribute Set","Добавить новый набор атрибутов"
 "Add Attribute Set","Добавить набор атрибутов"
 "Attribute Sets","Набор атрибутов"
@@ -1444,6 +1450,7 @@ Categories,Категории
 "You saved the category.","Вы сохранили категорию."
 "Please select products for attributes update.","Пожалуйста, выберите продукты для обновления атрибутов."
 "Please make sure to define SKU values for all processed products.","Пожалуйста убедитесь, в определении значения SKU для всех обработанных продуктов."
+"Message is added to queue","Сообщение добавлено в очередь"
 "Something went wrong while updating the product(s) attributes.","Что-то пошло не так при обновлении атрибутов товара(ов)."
 "Something went wrong while processing the request.","Во время обработки запроса что-то пошло не так."
 "Unable to add attribute","Не удается добавить атрибут"
@@ -1563,6 +1570,7 @@ Category,Категория
 "Use config","Использование конфигурации"
 "Attribute Set already exists.","Набор атрибутов уже существует."
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Не удалось скопировать файл %1. Удалите медиафайлы с несуществующими изображениями и повторите попытку."
+"The image doesn't exist.","Изображение не существует."
 "The option type to get group instance is incorrect.","Неверный тип параметра для получения экземпляра группы."
 "Select type options required values rows.","Выберите тип параметров требуемые значениями строк."
 "Please specify date required option(s).","Пожалуйста, укажите нужный вариант(ы) параметра."
@@ -1630,6 +1638,7 @@ message,сообщение
 "Customer Group Price","Цена на групповых клиентов"
 "Customer Group","Группы клиентов"
 "Special Price From","Специальная цена от"
+Done,Готово
 "Product Alerts","Оповещения о продукте"
 "Add Selected","Добавить выбранное"
 "Select Attribute","Выберите атрибут"
@@ -1662,7 +1671,7 @@ name,название
 "Copy Data from","Копировать данные из"
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Если существует без пользовательских родительской категории, пожалуйста, используйте по умолчанию родительской категории. Вы можете переназначить категорию в любое время в <a href=""%1"" target=""_blank"">продукты &gt; категории</a>."
 "This operation can take a long time","Эта операция может занять много времени"
-"Collapse All","Свернуть все"
+"Collapse All","Свернуть всё"
 "Expand All","Развернуть всё"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Подтвердите переключение сайта. Все данные, которые не были сохранены, будут потеряны."
 "Manage Titles (Size, Color, etc.)","Управление названиями (размер, цвет и т. д.)"
@@ -1732,7 +1741,7 @@ Role,Роль
 "Buy %1 for %2 each","Купить %1 для %2"
 "You added product %1 to the <a href=""%2"">comparison list</a>.","Вы добавили товар %1 в<a href=""%2"">список сравнения.</a>."
 "Shop By","Магазин по"
-"Shopping Options","Варианты покупок"
+"Shopping Options",Фильтры
 "Compare Products","Сравнение продуктов"
 "Print This Page","Распечатать эту страницу"
 "Remove Product","Удалить товар"
@@ -2064,7 +2073,7 @@ Priority,Приоритет
 "Advanced Search Results","Расширенный Поиск"
 "Search Weight","Вес Поиска"
 Relevance,Релевантность
-"Search results for: '%1'","Результаты поиска для:' %1'"
+"Search results for: '%1'","Результаты поиска для: '%1'"
 "Minimum Search query length is %1","Минимальная длина поискового запроса %1"
 "%1 and greater","%1 и более"
 "up to %1","до %1"
@@ -2226,7 +2235,9 @@ Identifier,Идентификатор
 Created,Создан
 Modified,Изменен
 "Media Storage","Хранилище медии"
+Cancel,Отменить
 "Delete Folder","Удалить папку"
+"Create Folder","Создать папку"
 "New Folder Name:","Имя новой папки:"
 "Are you sure you want to delete this folder?","Вы уверены, что хотите удалить эту папку?"
 "Are you sure you want to delete this file?","Вы уверены, что хотите удалить этот файл?"
@@ -2386,6 +2397,7 @@ Company:,Компания:
 "Phone Number","Номер телефона"
 "Company Administrator","Администратор компании"
 "Job Title",Должность
+"Collapse All","Свернуть все"
 "Add User","Добавить пользователя"
 "Add Team","Добавить команду"
 "Edit Selected","Изменить выбранные"
@@ -3238,6 +3250,7 @@ Invitation,Приглашение
 item,позиция
 items,позиции
 "Now Shopping by","В настоящее время покупки"
+"Shopping Options","Варианты покупок"
 "Admin Actions Log Archive","Архив журнала действий администратора"
 "No changes","Без изменений"
 "All Users","Все пользователи"
@@ -3377,6 +3390,7 @@ Url,URL-адрес
 "Delete video","Удалить видео"
 Title:,Заголовок:
 Uploaded:,Загружено:
+Uploader:,Автор:
 Duration:,Длительность:
 "Youtube API key is invalid","Некорректный ключ YouTube API"
 "Video cant be shown due to the following reason: ","Видео не может быть показано по следующей причине: "
