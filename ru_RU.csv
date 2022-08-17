@@ -1664,6 +1664,7 @@ Done,Готово
 "These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Эти продукты, предназначенные для импульсных покупок, появляются рядом с корзиной как кросс-селлы тех товаров, которые уже в корзине."
 "Add Cross-Sell Products","Добавить продукты кросс продажи"
 "Cross-Sell Products","Кросс продажи Товары"
+"Add Selected Products","Добавить выбранные товары"
 "Schedule Update From","Расписание обновления от"
 "Product in Websites","Продукт на веб-сайтах"
 "If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Если ваша установка Magento имеет несколько веб-сайтов, вы можете редактировать область использования продукта на определенных сайтах."
