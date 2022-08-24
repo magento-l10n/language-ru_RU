@@ -3750,6 +3750,8 @@ Operations,Операция
 "Are you sure you want to delete this?","Вы уверены, что хотите это удалить?"
 "We can't delete the rule right now. Please review the log and try again.","Мы не можем удалить правило прямо сейчас. Пожалуйста просмотрите журнал и повторите попытку."
 "Rule is not defined","Правило не определено"
+"No Coupon","Без купона"
+"Specific Coupon","Конкретный купон"
 Auto,Авто
 "Can't acquire coupon.","Не удается получить купон."
 "Cart Attribute","Атрибут корзины"
