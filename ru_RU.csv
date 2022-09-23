@@ -2089,7 +2089,7 @@ Relevance,Релевантность
 "Your search returned no results.","Ничего не найдено."
 "Catalog Search","Поиск по каталогу"
 "Popular Search Terms","Популярные поисковые запросы"
-"Minimal Query Length","Минимальная длин запроса"
+"Minimal Query Length","Минимальная длина запроса"
 "Maximum Query Length","Максимальная длина запроса"
 "Rebuild Catalog product fulltext search index","Перестроить каталог в полнотекстовом поисковом каталоге"
 "Update %1 from %2 to %3.","Обновить %1 с %2 до %3."
