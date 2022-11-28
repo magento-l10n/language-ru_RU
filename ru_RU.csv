@@ -4029,7 +4029,7 @@ description,описание
 "Widget ID","Id виджета"
 "My Wish List","Мой список желаний"
 "%1 has been moved to your wish list.","%1 была перемещена в свой список пожеланий."
-"You must login or register to add items to your wishlist.","Вы должны войти или Зарегистрироваться, чтобы добавить элементы в свой список пожеланий."
+"You must login or register to add items to your wishlist.","Вы должны войти или зарегистрироваться, чтобы добавить товары в избранное."
 "Message length must not exceed %1 symbols","Длина сообщения не должна превышать %1 символов"
 "Your wish list has been shared.","Ваш список пожеланий были поделён."
 "%1 has been updated in your Wish List.","%1 был обновлен в вашем списке желаний."
