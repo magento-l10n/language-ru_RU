@@ -3236,7 +3236,7 @@ Type:,Тип:
 Location,Местоположение
 "Please enter at least two letters.","Пожалуйста, введите по крайней мере 2 буквы."
 "General Options","Общие параметры"
-"Default Template","Шаблон По Умолчанию"
+"Default Template","Шаблон по умолчанию"
 "Gift Wrapping","Подарочная упаковка"
 "Add Gift Wrapping","Добавить подарочную упаковку"
 "You have not uploaded the image.","Вы не загрузили изображение."
@@ -4182,10 +4182,10 @@ Choose...,Выберете...
 "Widget Options","Параметры виджета"
 "Please specify a Widget Type.","Пожалуйста, укажите тип виджета."
 "Please specify a correct widget.","Пожалуйста, укажите правильный виджет."
-"The widget instance has been deleted.","Экземпляр Виджета был удален."
+"The widget instance has been deleted.","Виджет был удалён."
 "New Widget","Новый виджет"
 Widgets,Виджеты
-"The widget instance has been saved.","Экземпляр Виджета был сохранён."
+"The widget instance has been saved.","Виджет был сохранён."
 description,описание
 "We cannot create the widget instance because it is missing required information.","Нельзя создать экземпляр виджета потому, что отсутствует необходимая информация."
 "Specific %1","Конкретные %1"
