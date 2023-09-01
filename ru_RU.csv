@@ -247,13 +247,12 @@ TestMessage,"Тестовое сообщение"
 "Apps and Games","Приложения и игры"
 "Athletic/Sporting Goods","Спортивные товары"
 "Art and Design","Искусство и дизайн"
-"Advanced Reporting","Расширенная Отчетность"
+"Advanced Reporting","Расширенная отчетность"
 "Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Получите новые идеи и проверьте свою эффективность бизнеса, используя динамические отчеты о продуктах, заказах и клиентах."
 "Go to Advanced Reporting","Перейти к расширенной отчетности"
 Analytics,Аналитика
 Configuration,Настройки
 "Business Intelligence",Бизнес-аналитика
-"BI Essentials","Би Essentials"
 "Advanced Reporting Service","Служба Расширенных Отчетов"
 "Time of day to send data","Время отправления данных"
 Industry,Промышленность
@@ -428,7 +427,7 @@ Guest,Гость
 Items,Позиции
 Total,Всего
 "Lifetime Sales","Всего продаж"
-"Average Order","Обычный заказ"
+"Average Order","Средний заказ"
 Average,"В среднем"
 Views,Просмотры
 Revenue,Доход
