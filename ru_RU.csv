@@ -4180,7 +4180,7 @@ Operator,Оператор
 "Final Price","Конечная стоимость"
 "Enable FPT","Разрешить FPT"
 "Widget Insertion","Вставки виджета"
-"Insert Widget","Вставить Виджет"
+"Insert Widget","Вставить виджет"
 Choose...,Выберете...
 "Widget Type","Тип виджета"
 "Manage Widget Instances","Управление экземплярами виджетов"
@@ -4196,15 +4196,16 @@ Choose...,Выберете...
 "Layout Updates","Разметка обновлена"
 "Anchor Categories","Закрепить категории"
 "Non-Anchor Categories","Не закреплённые категории"
-"All Product Types","Все виды продукции"
+"All Product Types","Все типы товаров"
 "Generic Pages","Общие страницы"
 "All Pages","Все страницы"
 "Specified Page","Указанная страница"
 "Add Layout Update","Добавить обновление макета"
 "Remove Layout Update","Удалить обновление макета"
 "Widget Options","Параметры виджета"
+"Design Theme",Тема
 "Please specify a Widget Type.","Пожалуйста, укажите тип виджета."
-"Please specify a correct widget.","Пожалуйста, укажите правильный виджет."
+"Please specify a correct widget.","Пожалуйста, укажите корректный виджет."
 "The widget instance has been deleted.","Виджет был удалён."
 "New Widget","Новый виджет"
 Widgets,Виджеты
