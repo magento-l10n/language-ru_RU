@@ -2866,6 +2866,7 @@ Visitor,Посетитель
 "Change Shipping Address","Изменить адрес доставки"
 "You have no default shipping address in your address book.","У вас нет доставки по умолчанию адрес в адресной книге."
 "Additional Address Entries","Дополнительные адреса"
+"You have no other address entries in your address book.","У вас нет других адресов в адресной книге."
 "Go back",Назад
 "Please enter your email below and we will send you the confirmation link.","Пожалуйста, введите свой адрес электронной почты ниже и мы вышлем вам ссылку для подтверждения."
 "Send confirmation link","Отправить ссылку для подтверждения"
