@@ -649,11 +649,11 @@ Minute,Минута
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Пожалуйста, подтвердите переключение области. Все данные, которые не были сохранены, будут потеряны."
 "Additional Cache Management","Управление дополнительным кэшем"
 "Flush Catalog Images Cache","Очистка кэша изображений каталога"
-"Pregenerated product images files","Предварительно созданные изображения товаров"
+"Pregenerated product images files","Предварительно сгенерированные изображения товаров"
 "Flush JavaScript/CSS Cache","Очистка кэша JavaScript/CSS"
 "Themes JavaScript and CSS files combined to one file","JavaScript и CSS файлы объединены в один файл"
 "Flush Static Files Cache","Очистка кэша статических файлов"
-"Preprocessed view files and static files","Предварительно обработанные файлы просмотра и статические файлы"
+"Preprocessed view files and static files","Предварительно обработанные шаблоны и статические файлы"
 Catalog,Каталог
 "JavaScript/CSS Cache","Кэш JavaScript/CSS"
 "No records found.","Записей не найдено."
@@ -814,7 +814,7 @@ Web,Веб
 "Validate HTTP_USER_AGENT","Проверка HTTP_USER_AGENT"
 "Cache Type","Тип кэша"
 Description,Описание
-Tags,Метки
+Tags,Теги
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> Ошибка 404</h1> <p>Страница не найдена.</p>"
 "Default Theme","Тема по умолчанию"
 "Applied Theme","Приложенная Тема"
@@ -3287,7 +3287,7 @@ User,Пользователь
 "Execution Time","Время выполнения"
 "Indexer Management","Управление индексами"
 "Update by Schedule","Обновлять по расписанию"
-"Update on Save","Обновление при сохранении"
+"Update on Save","Обновлять при сохранении"
 "Reindex required","Требуется переиндексация"
 Ready,Готово
 Processing,Обработка
@@ -3295,6 +3295,7 @@ Processing,Обработка
 "Index Management","Управление индексами"
 "Please select indexers.","Пожалуйста, выберите индексы."
 "Test Phrase","Тестовая Фраза"
+Indexer,Индекс
 Mode,Режим
 "Payment method is not defined for instance purchase.","Метод оплаты не определен для экземпляра покупки."
 "Shipping address is not defined for instance purchase.","Адрес доставки для экземпляра покупки не определен."
