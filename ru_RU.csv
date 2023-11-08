@@ -3350,9 +3350,11 @@ Constant,Константа
 "Starting at","Доступно с"
 "Export Settings","Экспорт настроек"
 Filter,Фильтр
-"Check Data","Проверка данных"
+"Check Data","Проверить данные"
 "Import Settings","Импорт настроек"
+"Import Behavior",Поведение
 "Stop on Error","Остановить при ошибки"
+"Allowed Errors Count","Допустимое число ошибок"
 "Field separator","Разделитель полей"
 "File to Import","Файл для импорта"
 "Select File to Import","Выберите файл для импорта"
@@ -3364,18 +3366,22 @@ Import/Export,Импорт/Экспорт
 "Import successfully done","Импорт успешно завершен"
 "The file was not uploaded.","Файл не был загружен."
 "This file is empty. Please try another one.","Этот файл является пустым. Пожалуйста, попробуйте другой."
+"File is valid! To start import process press ""Import"" button","Файл проверен! Чтобы начать процесс импорта, нажмите кнопку ""Импорт"""
 "Show more","Показать больше"
 "There is no data for the export.","Нет данных для экспорта."
 "Exported %1 rows.","Экспортировано %1 строк."
 "The export is finished.","Экспорт завершен."
 "The import was successful.","Импортирование успешно завершено."
+"The file you uploaded has no extension.","Загруженный файл не имеет расширения."
 Add/Update,Добавить/Обновить
 Replace,Заменить
 "Custom Action","Пользовательские действия"
+"Validation Results","Результаты проверки"
 User,Пользователь
 "Imported File","Импортированный файл"
 "Error File","Файл ошибки"
 "Execution Time","Время выполнения"
+"Validation Strategy","Стратегия валидации"
 "Indexer Management","Управление индексами"
 "Update by Schedule","Обновлять по расписанию"
 "Update on Save","Обновлять при сохранении"
