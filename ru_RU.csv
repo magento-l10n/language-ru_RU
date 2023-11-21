@@ -5,7 +5,9 @@ None,Нет
 "You need more permissions to save this item.","У вас недостаточно прав для сохранения этого элемента."
 "You need more permissions to delete this item.","У вас недостаточно прав для удаления этого элемента."
 "You need more permissions to view this item.","У вас недостаточно прав для просмотра этого элемента."
+"Incorrect website ID: %1","Некорректный ID веб-сайта: %1"
 "You need more permissions to access website ""%1"".","У вас недостаточно прав для доступа к веб-сайту «%1»."
+"You need more permissions to save this setting.","У вас недостаточно прав для сохранения этого параметра."
 "Role Scopes","Области ролей"
 Custom,Выборочный
 "More permissions are needed to delete the ""%1"" item.","У вас недостаточно прав для удаления товаров ""%1""."
@@ -108,6 +110,7 @@ Configure,Настроить
 "You must buy at least %1 of these per purchase.","Вы должны купить как минимум %1 в одном заказе."
 "Specify the product's options.","Укажите опции товара."
 "Alert me when this item is available.","Сообщите мне, когда этот товар будет доступен."
+"We can't find this customer.","Мы не можем найти этого клиента."
 "Shopping cart management is disabled for this customer.","Редактирование корзины отключено для этого клиента."
 Customers,Покупатели
 "Shopping Cart",Корзина
@@ -247,6 +250,7 @@ Synonym,Синоним
 "There was an error save new configuration value.","Ошибка сохранения нового значения конфигурации."
 "--Please Select--","-- Выберите --"
 "Encryption key can't be empty.","Ключ шифрования не может быть пустым."
+"Source ""%1"" is not exist","Источник ""%1"" не существует"
 "These arguments can't be empty ""%1""","Эти аргументы не могут быть пустыми ""%1"""
 "Cannot find predefined integration user!","Предопределенная интеграция не может найти пользователя!"
 "File is not ready yet.","Файл ещё не готов."
@@ -306,6 +310,7 @@ Dismiss,Отменить
 ", %1 failed to update",", %1 не успешно обновлено"
 "Something went wrong.","Что-то пошло не так."
 "Action Log","Журнал Транзакций"
+Report,Отчёт
 "Bulk Actions","Массовые Операции"
 "Days Saved in Log","Дни, сохранённые в журнале"
 "Description of Operation","Описание операции"
@@ -540,11 +545,13 @@ To,До
 "Invalid export type supplied for grid export block","Недопустимый типа экспорта сетки блока экспорта"
 Export,Экспорт
 "Please correct the column format and try again.","Исправьте формат столбцов и повторите попытку."
+"Please select items.","Пожалуйста, выберите элементы."
 Submit,Отправить
 "Unknown block type","Неизвестный тип блока"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Пожалуйста исправьте конфигурацию вкладки и повторите попытку. ID вкладки не должен быть пустым"
 "Please correct the tab configuration and try again.","Исправьте настройки вкладки и повторите попытку."
 "You have logged out.","Вы вышли из системы."
+"Specified cache type(s) don't exist: %1","Указанный тип(ы) кэша не существует: %1"
 "The image cache was cleaned.","Кэш изображений был очищен."
 "An error occurred while clearing the image cache.","Произошла ошибка при очистке кэша изображений."
 "The JavaScript/CSS cache has been cleaned.","Кэш JavaScript / CSS был очищен."
@@ -839,8 +846,11 @@ Pagination,Пагинация
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Альтернативный текст для следующей страницы отображается в постраничном меню. Если пустое значение, то используется изображение стрелок по умолчанию."
 "Anchor Text for Next","Якорный текст для следующей"
 "Theme Name","Название темы"
+"Unable to delete website. Please, try again later.","Не удается удалить веб-сайт. Пожалуйста, повторите попытку позже."
 "Access denied","Доступ запрещен"
 "When the adapter was changed, please flush Catalog Images Cache.","Пожалуйста, очистите кэш изображений каталога после изменения адаптера."
+"Maximum Width","Максимальная ширина"
+"Maximum Height","Максимальная высота"
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Если значение не указано, используется системное значение по умолчанию. Система по умолчанию может быть изменена с помощью сторонних расширений."
 "System Backup","Резервное копирование системы"
 "Database and Media Backup","Резервное копирование БД и файлов Media"
@@ -937,10 +947,16 @@ Inactive,Неактивный
 "Specify Types","Укажите типы"
 "Banner Information","Информация баннера"
 Banner,Баннер
+"Banner Type","Тип баннера"
 Visibility,Видимость
 Position,Позиция
 "This rule no longer exists.","Это правило не существует."
+"This banner does not exist.","Этот баннер не существует."
+"You deleted the banner.","Вы удалили баннер."
+"Please select a banner(s).","Пожалуйста, выберите баннер(ы)."
 "You deleted %1 record(s).","Вы удалили %1 записи."
+"You saved the banner.","Вы сохранили баннер."
+"We cannot save the banner.","Мы не можем сохранить баннер."
 "Please enter a name.","Пожалуйста, введите имя."
 "-- None --","-- Нет --"
 "Content Area","Область содержимого"
@@ -948,6 +964,8 @@ Footer,"Нижний колонтитул"
 Header,"Заголовок (header)"
 "Left Column","Левая колонка"
 "Right Column","Правая колонка"
+"Manage Banners","Управление баннерами"
+"Banner Rotator","Ротатор баннеров"
 "Rotation Mode","Режим ротации"
 "Display all instead of rotating","Отобразить все вместо ротации"
 "One at the time, Random","Один, случайный"
@@ -2465,6 +2483,7 @@ Country:,Страна:
 State/Province:,Область:
 "ZIP/Postal Code:","Почтовый Индекс:"
 "Phone Number:","Номер телефона:"
+"Job Title:",Должность:
 "Email Address:","Email адрес:"
 Prefix:,Префикс:
 "First Name:",Имя:
@@ -2481,6 +2500,7 @@ Duplicated,Дублированный
 "A total of %1 record(s) were updated.","В общей сложности обновлено %1 записи(ей)."
 "Something went wrong. Please try again later.","Что-то пошло не так. Пожалуйста, попробуйте позже."
 "Invalid value of ""%value"" provided for the email field.","Недопустимое значение «%value» для поля электронной почты."
+"Invalid value ""%value"" given for the website ID field.","Недопустимое значение «%value» для поля ID сайта."
 "You have deleted company %companyName.","Вы удалили компанию %companyName."
 "The company no longer exists.","Компании больше не существует."
 "The requested company is not found","Запрошенная компания не найдена"
@@ -2513,6 +2533,11 @@ Duplicated,Дублированный
 "Pending Approval","В ожидании одобрения"
 Rejected,Отклонено
 Blocked,Заблокировано
+"The company admin cannot be moved to a different location in the company structure.","Администратор организации не может быть перемещен в другое место в структуре компании."
+"Cannot delete company with id %1","Не удается удалить компанию с идентификатором %1"
+"No company admin email is specified in request.","В запросе не указан адрес электронной почты администратора компании."
+"No company admin website ID is specified in request.","В запросе не указан ID сайта администратора компании."
+"No such entity with id = %idValue","Нет такой сущности с id = %idValue"
 "Company admin","Администратор компании"
 "Company user","Пользователь компании"
 "Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Не удается задать «доступ» для ресурса, так как его родитель ресурса(-ов) установлен на «запретить»."
@@ -2521,6 +2546,7 @@ Blocked,Заблокировано
 "Your account is not yet approved. If you have questions, please contact the seller.","Ваша учетная запись еще не подтверждена. Если у вас есть вопросы, пожалуйста, свяжитесь с продавцом."
 "There was an error saving custom attributes.","Произошла ошибка при сохранении пользовательских атрибутов."
 "Invalid value of ""%value"" provided for the %fieldName field.","Недопустимое значение «%value» для поля %fieldName."
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" обязательно. Введите и повторите попытку."
 "No such entity with %fieldName = %fieldValue","Нет такого объекта с %fieldName = %fieldValue"
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Эту роль нельзя удалить, поскольку пользователи назначены на него. Переназначьте пользователей к другой роли, чтобы продолжить."
 "You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.","Нельзя удалить роль, когда это единственная роль в компании. Перед удалением этой роли необходимо создать другую роль."
@@ -2559,36 +2585,77 @@ Company:,Компания:
 "Phone Number","Номер телефона"
 "Company Administrator","Администратор компании"
 "Job Title",Должность
+"New Company Account","Новый учетная запись компании"
+"Create a Company Account","Создать учетную запись компании"
+"Business Structure","Структура бизнеса"
 "Collapse All","Свернуть все"
 "Add User","Добавить пользователя"
 "Add Team","Добавить команду"
 "Edit Selected","Изменить выбранные"
 "Delete Selected","Удалить выбранные"
 "User Role","Роль пользователя"
+"You don't have a company account yet.","У вас пока нет учетной записи компании."
 "VAT/TAX ID: ","НДС/НАЛОГ ID: "
+"You have no other address entries in your address book.","У вас нет других адресов в адресной книге."
 Contacts,Контакты
 "Role Information","Сведения о роли"
 "Role Permissions","Разрешения роли"
 "Save Role","Сохранить роль"
 "Add New User","Создать пользователя"
 "Create an Account","Создание учетной записи"
+"This action will replace your Company Admin.","Это действие заменит вашего Администратора компании."
 "Dear %name,","Уважаемый %name,"
+"Your account is no longer active. You will not be able to use it for login.","Ваша учетная запись больше не активна. Вы не сможете использовать её для входа."
 "If this is a mistake, please contact the seller.","Если это ошибка, пожалуйста, свяжитесь с продавцом."
 "Company: %company","Компания: %company"
 "When you sign in to your account, you will be able to:","Когда вы войдёте в свой аккаунт, вы будет иметь возможность:"
+"* View and edit company profile in Admin Panel","* Просмотр и редактирование профиля компании в панели администратора"
+"If you have any questions, please contact the seller.","Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с продавцом."
+"Delete a Company?","Удалить компанию?"
+Proceed,Продолжить
+"Change Company Status?","Изменить статус компании?"
+"Cannot delete the user","Не удается удалить пользователя"
 "Edit User","Редактировать пользователя"
+"Cannot Delete User","Не удается удалить пользователя"
+"Delete this user?","Удалить этого пользователя?"
+"Delete This Role?","Удалить эту роль?"
+"This action cannot be undone. Are you sure you want to delete this role?","Это действие нельзя отменить. Вы уверены, что хотите удалить эту роль?"
+"Cannot Delete Role","Не удается удалить роль"
+"Set Inactive",Деактивировать
+"Company Configuration","Конфигурация компании"
 Comma-separated,"Разделенные запятой"
 "Company Status Change","Изменение статуса компании"
+"Account Information (View)","Информация об учетной записи (просмотр)"
+"Legal Address (View)","Юридический адрес (просмотр)"
+"Contacts (View)","Контакты (просмотр)"
+"Company User Management","Управление пользователями компании"
+"View roles and permissions","Просмотр ролей и разрешений"
+"Manage roles and permissions","Управление ролями и правами"
+"Checkout (place order)","Чекаут (размещение заказа)"
+"View orders","Просмотр заказов"
+"View orders of subordinate users","Просмотр заказов подчиненных пользователей"
+"Set a Company as Active","Активировать компанию"
+"Set Active","Сделать активной"
+"Are you sure you want to block the selected companies?","Вы уверены, что хотите заблокировать выбранные компании?"
+"Block a Company","Блокировать компанию"
 Comment,Комментарий
 ZIP,Индекс
+"Company Admin","Администратор компании"
 Gender,Пол
+"Customer Type","Тип клиента"
 Prefix,Префикс
 "Middle Name/Initial",Отчество/Инициалы
 Suffix,Суффикс
+"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Клиент является пользователем другой компании. Если вы продолжите, клиент будет удален из текущей компании и привязан к выбранной компании."
 "Change Company?","Изменить компанию?"
+"Associate to Company","Связать с компанией"
 "My Orders","Мои заказы"
 "Create New Customer","Создать нового клиента"
+"Create New Company Account","Создать новую учетную запись компании"
+Team,Команда
 Users,Пользователи
+"%fieldName is a required field.","%fieldName является обязательным полем."
+"%fieldName is a required field","%fieldName обязательное поле"
 "Company Credit","Кредит компании"
 unavailable.,недоступно.
 "The requested Payment Method is not available.","Запрошенный метод оплаты недоступен."
@@ -2625,7 +2692,6 @@ Rate,Курс
 Date,Дата
 Operation,Действие
 "Purchase Order","Заказ на Закупку"
-"%fieldName is a required field.","%fieldName является обязательным полем."
 "B2B Payment Methods","Методы оплаты B2B"
 " (disabled)"," (отключено)"
 "Available Payment Methods","Доступные способы оплаты"
@@ -2991,7 +3057,6 @@ Visitor,Посетитель
 "Change Shipping Address","Изменить адрес доставки"
 "You have no default shipping address in your address book.","У вас нет доставки по умолчанию адрес в адресной книге."
 "Additional Address Entries","Дополнительные адреса"
-"You have no other address entries in your address book.","У вас нет других адресов в адресной книге."
 "Go back",Назад
 "Please enter your email below and we will send you the confirmation link.","Пожалуйста, введите свой адрес электронной почты ниже и мы вышлем вам ссылку для подтверждения."
 "Send confirmation link","Отправить ссылку для подтверждения"
@@ -3501,7 +3566,6 @@ items,позиции
 "Admin Actions Log Archive","Архив журнала действий администратора"
 "No changes","Без изменений"
 "All Users","Все пользователи"
-Report,Отчёт
 Success,Успешно
 Failure,Неудача
 "This user is locked","Этот пользователь заблокирован"
@@ -4394,7 +4458,6 @@ Store:,Магазин:
 "Step 2: Set Custom Prices","Шаг 2: Установить индивидуальные цены"
 "Step 1: Select Products for Catalog","Шаг 1: Выберите товары для каталога"
 Website:,Веб-сайт:
-Proceed,Продолжить
 Assign,Назначить
 "The maximum allowed catalog name length is {0} characters.","Максимально допустимая длина имени каталога составляет {0} символов."
 "Conflicting row.","Конфликтующая строка."
@@ -4492,6 +4555,7 @@ product,товар
 State/Region,Область/Регион
 "Save Configuration","Сохранить конфигурацию"
 "JS Editor","JS редактор"
+"%1 Item(s)","%1 элемент(ов)"
 Page,Страница
 "1 column","1 колонка"
 "Default welcome msg!","Приветствие по умолчанию!"
