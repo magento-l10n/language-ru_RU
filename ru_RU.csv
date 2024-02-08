@@ -2067,6 +2067,14 @@ Start,Начало
 End,Конец
 "Concrete type for %1 not implemented","Конкретный тип для %1 не выполнен"
 "Missing key %1 in product data","Отсутсвует ключь %1 в данных о продукте"
+"""model"" value should be specified","Значение ""model"" должно быть указано"
+"currentPage value %1 specified is greater than the number of pages available.","указанное значение currentPage %1 превышает количество доступных страниц."
+"""id for category should be specified","""Id для категории должен быть указан"
+"No child sku found for product link.","По ссылке на продукт не найден дочерний артикул."
+"'search' or 'filter' input argument is required.","Требуется ввести аргумент 'search' или 'filter'."
+"SimpleProduct type not defined in schema.","Тип SimpleProduct не определен в схеме."
+"'category_id' only supports 'eq' condition type.","'category_id' поддерживает только 'eq' условие."
+"Cannot resolve type","Не удается определить тип"
 "Category doesn't exist","Категория не существует"
 "There are no product types available for export.","Для экспорта нет доступных типов продуктов."
 "'Entity type model must be an instance of ' .","'Это должен быть пример модели сущности существования' ."
@@ -2829,7 +2837,7 @@ Phone,Телефон
 "Email Options","Параметры E-mail"
 "Send Emails To","Отправить Email"
 "Email Sender","Отправитель электронной почты"
-"Email Template","Шаблон Письма"
+"Email Template","Шаблон письма"
 "Enter the Name and try again.","Введите имя и повторите попытку."
 "Enter the comment and try again.","Введите комментарий и повторите попытку."
 "The email address is invalid. Verify the email address and try again.","Недопустимый адрес электронной почты. Проверьте адрес электронной почты и повторите попытку."
@@ -2846,13 +2854,20 @@ Phone,Телефон
 "Cookie Domain","Домен Cookie"
 "Use HTTP Only","Использовать только HTTP"
 "Cookie Restriction Mode","Режим ограничения Cookie"
+"We can't save the cron expression.","Мы не можем сохранить cron выражение."
 Daily,Ежедневно
 Weekly,Еженедельно
 Monthly,Ежемесячно
+"Invalid cron expression: %1","Недопустимое cron-выражение: %1"
 "Cron (Scheduled Tasks)","Cron (запланированные задачи)"
+"For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","Чтобы URL-адреса, генерируемые во время запуска cron, были правильными, убедитесь, что Web > Безопасные и Незащищенные базовые URL-адреса заданы явно. Все время указано в минутах."
 "Cron configuration options for group:","Параметры конфигурации в cron для группы:"
 "Generate Schedules Every","Генерировать расписание каждые"
+"Schedule Ahead for","Запланировать вперед на"
+"Missed if Not Run Within","Пропущено, если не запущено в течение"
 "History Cleanup Every","Очистка журнала каждые"
+"Success History Lifetime","Срок хранения истории успешных запусков"
+"Failure History Lifetime","Срок хранения истории сбоев"
 "Use Separate Process","Используйте отдельный процесс"
 "Save Currency Rates","Сохранить валютные курсы"
 "Manage Currency Rates","Управление курсами валют"
@@ -3187,7 +3202,6 @@ Customer,Покупатель
 "Specify the ""currentPassword"" value.","Укажите значение ""currentPassword""."
 "Specify the ""newPassword"" value.","Укажите значение ""newPassword""."
 """input"" value should be specified","Значение ""input"" должно быть указано"
-"""model"" value should be specified","Значение ""model"" должно быть указано"
 "Address ""id"" value should be specified","Значение адреса ""id"" должно быть указано"
 "Specify the ""email"" value.","Укажите значение ""email""."
 "Specify the ""password"" value.","Укажите значение ""password""."
@@ -3382,6 +3396,7 @@ Combined,Комбинированный
 "Gift Card Type","Тип подарочной карты"
 "Gift Card Sender","Отправитель подарочной карты"
 "Lifetime (days)","Время жизни (дней)"
+"Email Template","Шаблон Письма"
 Minimum,Минимум
 Maximum,Максимум
 "Recipient Name","Имя получателя"
@@ -3644,6 +3659,9 @@ Created:,Создан:
 "Go to Checkout?","Оформить заказ?"
 "Created Date","Дата создания"
 "Last Updated","Последнее обновление"
+"No such public catalog entity","Нет такого объекта общедоступного каталога"
+"The product that was requested doesn't exist. Verify the product and try again.","Запрошенный продукт не существует. Проверьте продукт и повторите попытку."
+"Shared Catalog (or Customer Group)","Общий каталог (или группа клиентов)"
 "Delete Selected Problems","Удалить выбранные проблемы"
 Pause,Пауза
 Resume,Продолжить
@@ -4566,6 +4584,11 @@ Account,"Учётная запись"
 "2 columns with left bar","2 колонки с левой полосой"
 "2 columns with right bar","2 колонки с правой полосой"
 "3 columns","3 колонки"
+"Error while translating phrase ""%s"" in file %s.","Ошибка при переводе строки ""%s"" в файле %s."
+Translations,Переводы
+"Translation files","Файлы перевода"
+"Translation files.","Файлы перевода."
+"Please put your store into maintenance mode and redeploy static files after changing strategy","Пожалуйста, переведите свой магазин в режим обслуживания и повторно разверните статические файлы после изменения стратегии"
 Filters,Фильтры
 "Go to Details Page","Перейти на страницу редактирования"
 "Search by keyword","Искать по ключевому слову"
@@ -4639,6 +4662,17 @@ Failures,Неудачи
 Other,Другие
 "Specify the ""public_hash"" value.","Укажите значение ""public_hash""."
 "Could not find a token using public hash: %1","Не удалось найти токен с помощью публичного хэша: %1"
+Copy,Скопировать
+"Preview is not available.","Предпросмотр недоступен."
+Next/Previous,Следующий/Предыдущий
+"Enable Chapter/Section","Включить главу/раздел"
+Chapter/Section,Глава/Раздел
+"Enable Pagination","Включить разбиение на страницы"
+"Menu Layout","Макет меню"
+"List Type","Тип списка"
+"Page ID","ID страницы"
+Hierarchy,Иерархия
+"Something went wrong while copying the hierarchy.","Что-то пошло не так при копировании иерархии."
 "Not Selected","Не выбрано"
 "Search All Products","Искать все товары"
 "Add Product by SKU","Добавить товар по артикулу"
