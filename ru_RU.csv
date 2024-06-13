@@ -4962,5 +4962,6 @@ Translate,Перевести
 "Please enter a valid day (1-%1).","Пожалуйста, введите правильный день(1-%1)."
 "Please enter a date from the past.","Пожалуйста, введите дату из прошлого."
 "Please enter a quantity greater than 0.","Пожалуйста, введите количество больше 0."
+"You can buy this product only in quantities of %1 at a time.","Вы можете купить этот продукт только в количестве %1, за раз."
 "No marginal white space please","Пожалуйста, не используйте пробелы в начале и конце."
 "First character must be letter.","Первый символ должен быть буквой."
