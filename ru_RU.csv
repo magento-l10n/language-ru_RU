@@ -855,6 +855,7 @@ Pagination,Пагинация
 "Theme Name","Название темы"
 "Unable to delete website. Please, try again later.","Не удается удалить веб-сайт. Пожалуйста, повторите попытку позже."
 "Access denied","Доступ запрещен"
+"Report Bugs","Сообщить об ошибках"
 "User-Agent Exceptions","User-Agent исключения"
 "Values less than 60 are ignored.","Значения меньше 60 игнорируются."
 "Search String","Строка поиска"
@@ -868,6 +869,7 @@ Pagination,Пагинация
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Если значение не указано, используется системное значение по умолчанию. Система по умолчанию может быть изменена с помощью сторонних расширений."
 "Save &amp; Continue","Сохранить &amp; продолжить"
 "Save &amp; Close","Сохранить &amp; закрыть"
+"Save &amp; New","Сохранить &amp; создать"
 "System Backup","Резервное копирование системы"
 "Database and Media Backup","Резервное копирование БД и файлов Media"
 "Database Backup","Резервное копирование БД"
@@ -1533,6 +1535,7 @@ Categories,Категории
 "Something went wrong while saving the category.","Что-то пошло не так при сохранении категории."
 "Please select products for attributes update.","Пожалуйста, выберите продукты для обновления атрибутов."
 "Please make sure to define SKU values for all processed products.","Пожалуйста убедитесь, в определении значения SKU для всех обработанных продуктов."
+"A total of %1 record(s) were updated.","В общей сложности обновлено %1 записи(ей)."
 "Something went wrong while updating the product(s) attributes.","Что-то пошло не так при обновлении атрибутов товара(ов)."
 "Unable to add attribute","Не удается добавить атрибут"
 "Please, specify attributes","Пожалуйста, укажите атрибуты"
@@ -1653,11 +1656,13 @@ Category,Категория
 "Use config","Использование конфигурации"
 "Attribute Set already exists.","Набор атрибутов уже существует."
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Не удалось скопировать файл %1. Удалите медиафайлы с несуществующими изображениями и повторите попытку."
+"The image content is not valid.","Содержимое изображения недействительно."
 "Cannot save product.","Не удалось сохранить товар."
 "There is no image with provided ID.","Нет изображения с предоставленным ID."
 "Such product doesn't exist","Такой товар не существует"
 "Such image doesn't exist","Такое изображение не существует"
 "The image does not exist.","Изображение не существует."
+"Please correct the image file type.","Пожалуйста, исправьте тип файла изображения."
 "We couldn't move this file: %1.","Мы не смогли переместить этот файл: %1."
 "The option type to get group instance is incorrect.","Неверный тип параметра для получения экземпляра группы."
 "Select type options required values rows.","Выберите тип параметров требуемые значениями строк."
@@ -2029,7 +2034,14 @@ Overview,Обзор
 "Add To Compare","Добавить к сравнению"
 "Learn more",Подробнее
 "Recently Viewed","Недавно просмотренные"
+"Save Category","Сохранить категорию"
+"Delete Category","Удалить категорию"
+"Images and Videos","Изображения и видео"
 "Are you sure you want to delete this category?","Вы уверены, что вы хотите удалить эту категорию?"
+Ok,Oк
+Watermark,"Водяной знак"
+"Watermark Position","Позиция водяного знака"
+"Page not found","Страница не найдена"
 from,от
 to,до
 "You added product %1 to the <a href=""%2"">comparison list</a>.","Вы добавили товар %1 в<a href=""%2"">список сравнения.</a>."
@@ -2037,10 +2049,15 @@ to,до
 remaining,осталось
 "too many","слишком много"
 "This value does not follow the specified format (for example, 200X300).","Это значение не соответствует указанному формату (например, 200X300)."
+Quality,Качество
 "The value of Admin must be unique. (%1)","Значение Admin должно быть уникальным. (%1)"
 "The product can't be saved.","Товар не может быть сохранён."
+"The product doesn't exist. Verify and try again.","Товар не существует. Проверьте и повторите попытку."
+"The image doesn't exist. Verify and try again.","Изображение не существует. Проверьте и повторите попытку."
 "The image doesn't exist.","Изображение не существует."
+"Category with ID: %s doesn't exist","Категория с ID: %s не существует"
 "Start typing to find products","Начните набирать для поиска товаров"
+"Product with ID: %s doesn't exist","Продукт с ID: %s не существует"
 "Edit Event","Редактирование события"
 "Add Event","Добавить событие"
 Events,События
@@ -2109,6 +2126,7 @@ End,Конец
 "Every option entity must have a parent product entity.","Каждый вариант должен иметь основное присутствие продукта."
 "Please correct the parameters.","Пожалуйста исправьте параметры."
 "File '%1' was not found or has read restriction.","Файл «%1» не существует или у вас нет прав на чтение."
+"Disallowed file type.","Запрещенный тип файла."
 "Minimum Qty","Минимальное кол-во"
 "Add Minimum Qty","Добавьте минимальное кол-во"
 "Could not rebuild index for empty products array","Не удалось перестроить индекс для пустых массивов товаров"
@@ -2139,6 +2157,7 @@ Stock,Склад
 "All Customer Groups","Все группы клиента"
 Allow,Разрешить
 Deny,Запретить
+"Allow Browsing Category","Разрешить просмотр категории"
 "Landing Page","Стартовая страница"
 "Delete Rule","Удалить правило"
 "Save and Apply","Сохранить и применить"
@@ -2188,6 +2207,7 @@ Priority,Приоритет
 "Update Information","Редактировать информацию"
 "Schedule Update","Обновление расписания"
 "Update Name","Имя обновления"
+Inactive,Неактивен
 "Save as a New Update","Сохранить как новое обновление"
 "Move to Another Update","Переместить в другое обновление"
 "Delete the Update","Удалить обновление"
@@ -2239,6 +2259,7 @@ Path,Путь
 "Product URL Suffix","URL-суффикс товара"
 "Use Categories Path for Product URLs","Использовать путь категорий для URL-адресов продуктов"
 "Create Permanent Redirect for URLs if URL Key Changed","Создать постоянное перенаправление для URL-адресов, если URL-ключ изменен"
+"Please choose a condition to add.","Пожалуйста, выберите условие для добавления."
 "Catalog Products List","Список товаров каталога"
 "List of Products","Список товаров"
 "Products Grid Template","Шаблон сетки товаров"
@@ -2447,6 +2468,7 @@ View,Просмотр
 "Show Notice if Local Storage is Disabled","Показать уведомление, если локальное хранилище отключено"
 "WYSIWYG Options","Настройки WYSIWYG"
 "Enable WYSIWYG Editor","Включить редактор WYSIWYG"
+"Link to a CMS Page","Ссылка на страницу CMS"
 "CMS Page","Страница CMS"
 "Select Page...","Выберите страницу..."
 "CMS Static Block","CMS Статический блок"
@@ -2523,7 +2545,6 @@ Duplicated,Дублированный
 "Thank you! We're reviewing your request and will contact you soon","Спасибо! Мы рассмотрим ваш запрос и свяжемся с вами в ближайшее время"
 "An error occurred on the server. Your changes have not been saved.","На сервере произошла ошибка. Ваши изменения не были сохранены."
 "Create New Company","Создание новой компании"
-"A total of %1 record(s) were updated.","В общей сложности обновлено %1 записи(ей)."
 "Something went wrong. Please try again later.","Что-то пошло не так. Пожалуйста, попробуйте позже."
 "Invalid value of ""%value"" provided for the email field.","Недопустимое значение «%value» для поля электронной почты."
 "Invalid value ""%value"" given for the website ID field.","Недопустимое значение «%value» для поля ID сайта."
@@ -2670,6 +2691,7 @@ ZIP,Индекс
 "Company Admin","Администратор компании"
 Gender,Пол
 "Customer Type","Тип клиента"
+"Please specify the reason","Пожалуйста, укажите причину"
 Prefix,Префикс
 "Middle Name/Initial",Отчество/Инициалы
 Suffix,Суффикс
@@ -2686,9 +2708,11 @@ Users,Пользователи
 "Company Credit","Кредит компании"
 unavailable.,недоступно.
 "The requested Payment Method is not available.","Запрошенный метод оплаты недоступен."
+"Could not update history","Не удалось обновить историю"
 "Requested company is not found. Row ID: %fieldName = %fieldValue.","Запрошенная компания не найдена. ID строки: %fieldName = %fieldValue."
 Updated,Обновлено
 Purchased,Куплено
+"Could not save history","Не удалось сохранить историю"
 "Store Credit",Транзакции
 "Exception message.","Сообщение об ошибке."
 "Exception Message","Сообщение об ошибке"
@@ -2738,6 +2762,7 @@ Add,Добавить
 "Sorry, we haven't installed the base currency you selected.","К сожалению, мы еще не установили базовую валюту, которую вы выбрали."
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","Файл, который вы загружаете превышает предельный размер на %1 килобайт."
 "Base currency","Базовая валюта"
+"Please correct the timezone.","Пожалуйста, исправьте часовой пояс."
 title,название
 Optional,Опционально
 "HTTP (unsecure)","HTTP (небезопасно)"
@@ -2843,6 +2868,7 @@ Select,Выбрать
 "Buy %1 for %2 each and","Kупить %1 для %2 each and"
 save,сохранять
 "Configurable Product Image","Kонфигурируемый Товар Образ"
+"Edit role","Редактировать роль"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Спасибо за обращение к нам с вашими комментариями и вопросами. Мы ответим вам очень скоро."
 "An error occurred while processing your form. Please try again later.","Произошла ошибка при обработке вашей формы. Пожалуйста, повторите попытку позже."
 "Write Us","Напишите нам"
@@ -3101,6 +3127,7 @@ Visitor,Посетитель
 "No Password","Без пароля"
 "Confirm New Password","Введите пароль ещё раз"
 "Please enter your email address below to receive a password reset link.","Пожалуйста, введите ваш адрес электронной почты ниже, чтобы получить ссылку для сброса пароля."
+"Reset My Password","Сбросить мой пароль"
 "Registered Customers","Зарегистрированные клиенты"
 "Sign Up for Newsletter","Подписаться на новости"
 "Address Information","Информация об адресе"
@@ -3119,6 +3146,7 @@ Password:,Пароль:
 "Check the status of orders","Проверить статус заказов"
 "View past orders","Просмотр предыдущих заказов"
 "Confirm Your Account","Подтвердите учетную запись"
+"Hello,","Привет,"
 "Checkout as a new customer","Оформить заказ как новый клиент"
 "Creating an account has many benefits:","Создание учетной записи имеет множество плюсов:"
 "See order and shipping status","Смотрите доставку и ее статус"
@@ -3162,7 +3190,15 @@ Addresses,Адреса
 "Edit Account Information","Изменить сведения об учетной записи"
 "Password forgotten","Пароль забыт"
 "You are signed out","Вы вышли из системы"
+"Please enter the first name.","Пожалуйста, введите имя."
+"Please enter the last name.","Пожалуйста, введите фамилию."
+"Please enter the street.","Пожалуйста, введите улицу."
+"Please enter the city.","Пожалуйста, введите город."
 "Please enter the zip/postal code.","Пожалуйста, введите почтовый индекс."
+"Please enter the country.","Пожалуйста, введите страну."
+"Please enter a last name.","Пожалуйста, введите фамилию."
+"Please enter a date of birth.","Пожалуйста, введите дату рождения."
+"Please enter a gender.","Пожалуйста, укажите пол."
 "Balance Change","Изменение баланса"
 Balance,Баланс
 "Customer notified","Клиент уведомлен"
@@ -3185,6 +3221,7 @@ available,доступно
 "Maximum Text Length","Максимальная длина текста"
 "Maximum File Size (bytes)","Максимальный размер файла (в байтах)"
 "File Extensions","Расширения файлов"
+"Comma separated","Разделенные запятой"
 "Maximum Image Width (px)","Максимальная ширина изображения (пикселей)"
 "Maximum Image Height (px)","Максимальная высота изображения (пикселей)"
 "Input/Output Filter","Фильтр ввода / вывода"
@@ -3203,6 +3240,7 @@ Customer,Покупатель
 "Manage Customer Address Attributes","Управление атрибутами адреса покупателя"
 "Manage Customer Attributes","Управление атрибутами покупателя"
 "You deleted the customer attribute.","Вы удалили атрибут покупателя."
+"The attribute no longer exists.","Этот атрибут больше не существует."
 "Edit Customer Attribute","Редактировать атрибут покупателя"
 "We can't save the form type right now.","Мы не можем сохранить тип формы прямо сейчас."
 "The form type has been deleted.","Тип формы был удален."
@@ -3225,6 +3263,7 @@ Customer,Покупатель
 "Specify the ""password"" value.","Укажите значение ""password""."
 """Email should be specified","""Адрес электронной почты должен быть указан"
 "Please specify a website.","Пожалуйста, укажите веб-сайт."
+"Please specify an email.","Пожалуйста, укажите адрес электронной почты."
 "We found an invalid value in a website column.","Мы обнаружили недопустимое значение в столбце веб-сайта."
 "Please enter a valid email.","Пожалуйста, введите корректный email."
 "Please make sure attribute ""%s"" is not empty.","Пожалуйста, убедитесь, что атрибут ""%s"" не является пустым."
@@ -3276,6 +3315,7 @@ was,было
 "Wish List","Список желаний"
 found,найдено
 "not found","не найден"
+"Order Address","Адрес заказа"
 "Number of Orders","Количество заказов"
 "Purchased Quantity","Количество заказов"
 matches,совпадений
@@ -3301,6 +3341,8 @@ matches,совпадений
 "Client side compilation doesn't work in production mode","Компиляция на стороне клиента не работает в production режиме"
 "Client side less compilation","Компиляция less на стороне клиента"
 "Server side less compilation","Компиляция less на стороне сервера"
+"Allowed IPs (comma separated)","Разрешенные IP (через запятую)"
+Syslog,"Системный журнал"
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Выберите это, чтобы разрешить DHL оптимизировать транспортные расходы путем разделения порядок, если она превышает %1 %2."
 "Wrong Content Type","Неверный тип контента"
 Pounds,Фунты
@@ -3324,9 +3366,12 @@ Documents,Документы
 "Account Number","Номер аккаунта"
 "Weight Unit","Единицы веса"
 Size,Размер
+"Allowed Methods","Разрешенные методы"
+lbs,фунты
 kgs,кг
 "FATAL ERROR:","КРИТИЧЕСКАЯ ОШИБКА:"
 WARNING:,ВНИМАНИЕ:
+"Please correct the country code: %1.","Пожалуйста, исправьте код страны: %1."
 Continue,Продолжить
 "Currency Setup","Настройка валюты"
 "Currency Options","Настройки валюты"
@@ -3335,6 +3380,7 @@ Continue,Продолжить
 Service,Услуги
 "Installed Currencies","Установленные валюты"
 "No API Key was specified or an invalid API Key was specified.","Ключ API не указан или неверный."
+"API Key",API-ключ
 "Document is not saved due to error.","Документ не сохраняется из-за ошибки."
 "More than one node matching the query: %1","Более одного узла, соответствующего запросу: %1"
 "Invalid XML in file %1:\n%2","Недопустимый XML в файле %1:\n%2"
@@ -3360,8 +3406,14 @@ download,скачать
 Downloads,Загрузки
 "Default Label","Метка по умолчанию"
 "Letters (a-z, A-Z) or Numbers (0-9)","Буквы (a-z, A-Z) или цифры (0-9)"
+"Attribute set not found: %1","Набор атрибутов не найден: %1"
+"Cannot delete attribute.","Невозможно удалить атрибут."
+"Attribute with id ""%1"" does not exist.","Атрибут с Id: ""%1"" не существует."
 "Invalid date","Неверная дата"
+"Attribute set name is empty.","Не указано имя набора атрибутов."
+"Attribute with ID: ""%1"" does not exist","Атрибут с ID: ""%1"" не существует"
 hello,привет
+"Text Editor","Текстовый редактор"
 "Missing %1 for the input %2.","Отсутствующие %1 для ввода %2."
 "Elasticsearch Server Hostname","Имя сервера Elasticsearch"
 "Elasticsearch Server Port","Порт сервера Elasticsearch"
@@ -3373,6 +3425,7 @@ hello,привет
 "Test Connection","Проверка подключения"
 "Add New Template","Добавить новый шаблон"
 "Delete Template","Удалить шаблон"
+"Preview Template","Предпросмотр шаблона"
 "Save Template","Сохранить шаблон"
 "Template Information","Информация о шаблоне"
 "Template Name","Название Шаблона"
@@ -3380,6 +3433,9 @@ hello,привет
 "Template Content","Содержание шаблона"
 "Template Styles","Стили шаблона"
 "New Template","Новый шаблон"
+"Email Templates","Шаблоны эл. почты"
+"Base Unsecure URL","Базовый небезопасный URL"
+"Base Secure URL","Базовый безопасный URL"
 Footer,"Подвал (footer)"
 "Thank you, %store_name","Спасибо, %store_name"
 "Template Type","Тип Шаблона"
@@ -3405,7 +3461,6 @@ Footer,"Подвал (footer)"
 status,статус
 "Account ID","ID Клиента"
 Key,Ключ
-"Allowed Methods","Разрешенные методы"
 "Gift Card Information","Информация о подарочной карте"
 Virtual,Виртуальный
 Physical,Физический
@@ -3413,6 +3468,10 @@ Combined,Комбинированный
 "Add Amount","Добавить сумму"
 "Gift Card Type","Тип подарочной карты"
 "Gift Card Sender","Отправитель подарочной карты"
+"Please specify a recipient name.","Пожалуйста, укажите имя получателя."
+"Please specify a sender name.","Пожалуйста, укажите имя отправителя."
+"Please specify a recipient email.","Пожалуйста, укажите адрес электронной почты получателя."
+"Please specify a sender email.","Пожалуйста, укажите email отправителя."
 "Lifetime (days)","Время жизни (дней)"
 "Email Template","Шаблон Письма"
 Minimum,Минимум
@@ -3421,6 +3480,8 @@ Maximum,Максимум
 "Recipient Email","Электронная почта получателя"
 "Maximum length of the message is %1 characters.","Максимальная длина сообщения %1 символов."
 "Gift Cards","Подарочные карты"
+"Allow Gift Message","Разрешить подарочное сообщение"
+"Save & Send Email","Сохранить и отправить письмо"
 Information,Информация
 "Gift Card Code","Код подарочной карты"
 History,История
@@ -3435,6 +3496,7 @@ Generate,Генерировать
 " of "," из "
 " total)."," всего)."
 "Click here","Нажмите здесь"
+"Apply Gift Card","Применить подарочную карту"
 "Gift Card:","Подарочная карта:"
 "See Balance","Посмотреть баланс"
 "Code Format","Формат кода"
@@ -3442,6 +3504,7 @@ Generate,Генерировать
 "Code Suffix","Суффикс кода"
 "Gift Messages are not applicable for empty cart","Подарочные сообщения не применяются для пустой корзины"
 "Gift Options","Вариантов подарка"
+"Allow Gift Messages for Order Items","Разрешить подарочные сообщения для товаров заказа"
 "Product ID","ID товара"
 Requested,Запрошено
 Note,Заметка
@@ -3454,16 +3517,16 @@ Public,Публичное
 Short,Короткий
 Long,Длинный
 Full,Полный
+"Please correct the address.","Пожалуйста, исправьте адрес."
 "Please enter a valid email address.","Введите допустимый адрес электронной почты."
 Private,Приватный
 "Please enter the title.","Пожалуйста, введите название."
 "This product(s) is out of stock.","Этого товара нет в наличии."
 "An item option with code %1 already exists.","Элемент параметра с кодом %1 уже существует."
 New,Новый
-"Please enter the first name.","Пожалуйста, введите имя."
-"Please enter the last name.","Пожалуйста, введите фамилию."
 "-- All --","-- Все --"
 "All Forms","Все формы"
+Owner,Владелец
 "Date Format","Формат даты"
 Share,Поделиться
 Sender,Отправитель
@@ -3481,6 +3544,7 @@ Location,Местоположение
 "You have not uploaded the image.","Вы не загрузили изображение."
 "No image","Нет изображения"
 Constant,Константа
+"Anonymize IP","Анонимизировать IP"
 "Send to Google","Отправить в Google"
 "Account type","Тип учетной записи"
 "Request content type must be application/json","Тип содержимого запроса должен быть application/json"
@@ -3494,6 +3558,7 @@ Constant,Константа
 "Default Qty","Кол-во по умолчанию"
 "Starting at","Доступно с"
 "Export Settings","Экспорт настроек"
+"Entity Type","Тип сущности"
 Filter,Фильтр
 "Check Data","Проверить данные"
 "Import Settings","Импорт настроек"
@@ -3513,6 +3578,7 @@ Import/Export,Импорт/Экспорт
 "This file is empty. Please try another one.","Этот файл является пустым. Пожалуйста, попробуйте другой."
 "File is valid! To start import process press ""Import"" button","Файл проверен! Чтобы начать процесс импорта, нажмите кнопку ""Импорт"""
 "Show more","Показать больше"
+"Please correct the file format.","Пожалуйста, исправьте категорию."
 "There is no data for the export.","Нет данных для экспорта."
 "Exported %1 rows.","Экспортировано %1 строк."
 "The export is finished.","Экспорт завершен."
@@ -3537,6 +3603,7 @@ Processing,Обработка
 "Index Management","Управление индексами"
 "Please select indexers.","Пожалуйста, выберите индексы."
 "Test Phrase","Тестовая Фраза"
+"Change indexer mode","Изменить режим индексации"
 Indexer,Индекс
 Mode,Режим
 "Payment method is not defined for instance purchase.","Метод оплаты не определен для экземпляра покупки."
@@ -3565,6 +3632,7 @@ Activate,Активировать
 Reauthorize,"Повторно авторизовать"
 "The integration was not saved.","Интеграция не была сохранена."
 "Token is already being used","Токен уже используется"
+"Are you sure ?","Вы уверены ?"
 "Available APIs","Доступные API"
 Resources,Ресурсы
 "Sorry, something went wrong. Please try again later.","Извините, что-то пошло не так. Попробуйте еще раз."
@@ -3582,6 +3650,7 @@ Invitations,Приглашения
 "My Invitations","Мои приглашения"
 "Send Invitations","Отправить приглашения"
 "Available to All","Доступны для всех"
+"Please specify an email.","Пожалуйста, укажите Url."
 Accepted,Принято
 "Send At","Отправить на"
 Link,Ссылка
@@ -3589,6 +3658,7 @@ Link,Ссылка
 "Enter Email","Введите e-mail адрес"
 Conversion,Преобразования
 Conversions,Преобразования
+"Send Selected","Отправить выбранное"
 Registered,Зарегистрированный
 Invitation,Приглашение
 "Filterable (with results)","Фильтруемый (с результатами)"
@@ -3599,6 +3669,10 @@ items,позиции
 "Admin Actions Log Archive","Архив журнала действий администратора"
 "No changes","Без изменений"
 "All Users","Все пользователи"
+"Tax Rates Import","Импорт налоговых ставок"
+"Attributes Updated","Атрибуты обновлены"
+"Cache types: %1 ","Типы кэша: %1 "
+"Tax Rates Export","Экспорт налоговых ставок"
 Success,Успешно
 Failure,Неудача
 "This user is locked","Этот пользователь заблокирован"
@@ -3617,6 +3691,8 @@ Create,Создать
 "Newsletter Queue","Очередь рассылки"
 "Sales Shipments","Отгрузки заказов"
 "Manage Design","Управление дизайном"
+"Tax Rules","Налоговые правила"
+"Tax Rates","Налоговые ставки"
 Widget,Виджет
 "IP Address",IP-адрес
 Result,Результат
@@ -3629,6 +3705,7 @@ Synchronizing...,Синхронизация...
 "File System","Файловая система"
 "database ""%1""","база данных ""%1"""
 "Some exception","Некоторые исключения"
+"In Cart","В корзине"
 "Actual Price","Фактическая цена"
 Wishlist,"Список желаний"
 "My Wish Lists","Мой список желаний"
@@ -3642,6 +3719,7 @@ Wishlist,"Список желаний"
 "Wish list ""%1"" already exists.","Список желаний ""%1"" уже существует."
 "Only %1 wish list(s) can be created.","Списков желаний можно создать только %1"
 "All Wish Lists","Все списки желаний"
+"Add To Order","Добавить в заказ"
 "Delete Wish List","Удалить список желаний"
 "Add to:","Добавить в:"
 "Create New Wish List","Создать новый список желаний"
@@ -3659,8 +3737,10 @@ Wishlist,"Список желаний"
 "Default Shipping","Доставка по умолчанию"
 "Send To",Отправить
 "Go to Shipping Information","Перейти к информации о доставке"
+"Back to Shopping Cart","Вернуться в корзину"
 "Shipping To","Доставка в"
 "Order Review","Обзор заказа"
+"Grand Total:","Общий итог:"
 "Review Order","Просмотр заказа"
 Error:,Ошибка:
 "Save as Draft","Сохранить как черновик"
@@ -3675,7 +3755,7 @@ Created:,Создан:
 "No shipping information available.","Информация о доставке недоступна."
 "Thank you,","Спасибо,"
 "Cancel coupon","Отменить купон"
-"Apply Gift Card","Применить подарочную карту"
+OK,ОК
 "Go to Checkout","Оформить заказ"
 "Go to Checkout?","Оформить заказ?"
 "Created Date","Дата создания"
@@ -3684,6 +3764,7 @@ Created:,Создан:
 "The product that was requested doesn't exist. Verify the product and try again.","Запрошенный продукт не существует. Проверьте продукт и повторите попытку."
 "Shared Catalog (or Customer Group)","Общий каталог (или группа клиентов)"
 "Delete Selected Problems","Удалить выбранные проблемы"
+"Save and Resume","Сохранить и продолжить"
 Pause,Пауза
 Resume,Продолжить
 "Save As","Сохранить как"
@@ -3691,6 +3772,7 @@ Subscribers,Подписчики
 "This email address is already subscribed.","Пользователь с таким адресом электронной почты уже подписан на рассылку."
 Cancelled,Отменено
 "Choose Store View:","Название витрины магазина:"
+"Add to Queue","Добавить в очередь"
 "Need to Confirm","Требуется подтверждение"
 "Customer First Name","Имя клиента"
 "Customer Last Name","Фамилия клиента"
@@ -3702,6 +3784,7 @@ Cancelled,Отменено
 "Varnish Cache (Recommended)","Varnish кэш (рекомендуется)"
 "Unsupported varnish version","Неподдерживаемая версия varnish"
 "Full Page Cache","Полно-страничное кэширование"
+"Page Cache","Кэш страниц"
 "Full page caching","Полно-страничное кэширование"
 "All Allowed Countries","Все разрешенные страны"
 "You can't use the payment type you selected to make payments to the billing country.","Вы не можете использовать выбранный вами тип платежа для внесения платежей в страну фактурирования."
@@ -3713,6 +3796,7 @@ Cancelled,Отменено
 Help,Помощь
 "View Demo","Просмотреть демо"
 "Invalid block type","Неверный тип блока"
+"API Certificate","Сертификат API"
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal не может обрабатывать заказы с нулевым балансом. Чтобы оформить покупку, пожалуйста, пройдите стандартный процесс оформления заказа."
 "Every 3 days","Каждые 3 дня"
 "Every 7 days","Каждые 7 дней"
@@ -3724,8 +3808,13 @@ here,здесь
 Status:,Статус:
 "What is PayPal?","Что такое PayPal?"
 "Sorry, something went wrong.","Извините, что-то пошло не так."
+"Home Page","Домашняя страница"
 "Enable SSL verification","Включить проверку SSL"
 Partner,Партнер
+Gold,Золотой
+Black,Черный
+"Buy Now","Купить сейчас"
+Color,Цвет
 "Not you?","Не вы?"
 "Welcome, %1!","Добро пожаловать, %1!"
 "Remember Me","Запомнить меня"
@@ -3747,12 +3836,12 @@ Title:,Заголовок:
 Uploaded:,Загружено:
 Uploader:,Автор:
 Duration:,Длительность:
+"Invalid video url","Неверный URL-адрес видео"
 "Youtube API key is invalid","Некорректный ключ YouTube API"
 "Video cant be shown due to the following reason: ","Видео не может быть показано по следующей причине: "
 "Video not found","Видео не найдено"
 "New Video","Новое видео"
 "Edit Video","Редактировать видео"
-"Images and Videos","Изображения и видео"
 "YouTube API Key","Ключ YouTube API"
 "Autostart base video","Автозапуск главного видео"
 "Show related video","Показывать связанные видео"
@@ -3913,10 +4002,11 @@ Refunds,Возвраты
 "Invalid item option format.","Формат параметра недопустим для элемента."
 "Cannot specify product.","Не удается указать товар."
 Exception,Исключение
+"Could not save","Не удалось сохранить"
 "Update List","Обновить список"
 "Move Selected","Переместить выбранные"
+"Remove Selected","Удалить выбранные"
 Merge,Объединить
-Ok,Oк
 "Save Review","Сохранить отзыв"
 "New Review","Новый отзыв"
 "Review Details","Подробности отзыва"
@@ -3958,6 +4048,7 @@ Ratings,Оценки
 "You submitted your review for moderation.","Вы отправили отзыв на модерацию."
 Approved,Утвержден
 "Not Approved","Не утвержден"
+"Please enter a nickname.","Пожалуйста, введите сообщение."
 Rating,Рейтинг
 "View All","Посмотреть все"
 "Your Review","Ваш отзыв"
@@ -4021,7 +4112,6 @@ Returned,Возвращено
 Resolution,Разрешение
 Split,Разделить
 "Return Information","Информация о возврате"
-"Comma separated","Разделенные запятой"
 "Visible to Customer","Видимый для клиента"
 "Submit Returns","Отправить возврат"
 "Add Selected Product(s) to returns","Добавление выбранных продуктов к возврату"
@@ -4032,6 +4122,7 @@ Split,Разделить
 "Please enter a valid message.","Введите действительное сообщение."
 "Invalid order","Неверный заказ"
 "Please specify a carrier.","Пожалуйста, укажите службу доставки."
+"Please enter a tracking number.","Пожалуйста, введите номер отслеживания."
 "An attribute with the same code already exists.","Атрибут с тем же кодом уже существует."
 "We cannot display the item attributes.","Мы не можем отобразить атрибуты элемента."
 "There are no applicable items for return in this order.","Нет подходящих товаров для возврата в этом заказе."
@@ -4046,6 +4137,7 @@ Split,Разделить
 "Contact Email Address","Контактный адрес электронной почты"
 "Return # ","Возврат # "
 "Return Date: ","Дата возврата: "
+"ID cannot be an empty","ID не может быть пустым"
 "Invalid carrier: %1","Неправильная служба доставки: %1"
 "Shipment does not exists.","Отгрузка не существует."
 "All Items","Все элементы"
@@ -4229,10 +4321,7 @@ Value,Значение
 "This payment method is not available.","Способ оплаты недоступен."
 "Validation is failed.","Валидация не удалась."
 "Id required","Требуется Id"
-"Please enter the street.","Пожалуйста, введите улицу."
-"Please enter the city.","Пожалуйста, введите город."
 "Please enter the phone number.","Пожалуйста, введите номер телефона."
-"Please enter the country.","Пожалуйста, введите страну."
 "Requested entity doesn't exist","Запрошенная сущность не существует"
 "Could not delete order address","Не удалось удалить адрес заказа"
 Pending,"В ожидании"
@@ -4264,7 +4353,6 @@ Authorization,Авторизация
 "Could not delete the shipment comment.","Не удалось удалить комментарий отгрузки."
 "Could not delete the shipment tracking.","Не удалось удалить отслеживание отправления."
 "Could not save the shipment tracking.","Не удалось сохранить отслеживание отправления."
-"Please enter a tracking number.","Пожалуйста, введите номер отслеживания."
 "Could not delete shipment","Не удается удалить отгрузку"
 "Could not save shipment","Не удается сохранить отгрузку"
 "Could not delete the order status history.","Не удалось удалить историю статуса заказа."
@@ -4297,12 +4385,12 @@ Complete,Завершен
 "Click to change shipping method","Нажмите, чтобы изменить способ доставки"
 "Get shipping methods and rates","Получить способы доставки и тарифы"
 "You don't need to select a shipping method.","Вам не нужно выбирать способ доставки."
-"Add To Order","Добавить в заказ"
 "Append Comments","Добавить комментарии"
 "Payment &amp; Shipping Method","Оплата и способ доставки"
 "The order was placed using %1.","Заказ был размещен с использованием %1."
 "Qty to Refund","Количество для возврата"
 "No Items To Refund","Нет товаров для возврата"
+"Please enter a positive number in this field.","Пожалуйста, введите положительное число в это поле."
 "Items Refunded","Товаров возвращено"
 "Purchased From: %1","Оформлен в: %1"
 "Create Shipment","Создать отгрузку"
@@ -4316,6 +4404,8 @@ Complete,Завершен
 "Order Date","Дата заказа"
 "Order Date (%1)","Дата заказа (%1)"
 "Purchased From","Оформлен в"
+"Link to the New Order","Ссылка на новый заказ"
+"Link to the Previous Order","Ссылка на предыдущий заказ"
 "Placed from IP","Размещен с IP"
 "Edit Customer","Редактировать данные клиента"
 "Transaction Data","Данные транзакции"
@@ -4419,6 +4509,7 @@ Operations,Операция
 "Sales Archive","Архив продаж"
 "Go to Archive","Перейти в архив"
 "Are you sure you want to delete this?","Вы уверены, что хотите это удалить?"
+Labels,Метки
 "We can't delete the rule right now. Please review the log and try again.","Мы не можем удалить правило прямо сейчас. Пожалуйста просмотрите журнал и повторите попытку."
 "Rule is not defined","Правило не определено"
 "No Coupon","Без купона"
@@ -4444,6 +4535,7 @@ FOUND,НАЙДЕНО
 "Clean Now","Очистить сейчас"
 "Connecting to server","Подключение к серверу"
 "Reading import file","Чтение файла импорта"
+"Please correct the server type.","Пожалуйста, исправьте тип сервера."
 "Remote FTP","Удаленный FTP"
 Successful,Успешно
 "Can not open file","Не удается открыть файл"
@@ -4491,8 +4583,10 @@ Successful,Успешно
 "By IP","По IP"
 "By Email","По Email"
 "Log out all other sessions","Завершить все остальные сессии"
+"Please enter a message.","Пожалуйста, введите сообщение."
 "Cookie (unsafe)","Файлы cookie (небезопасно)"
 "Welcome, %name","Добро пожаловать, %name"
+"Select Email Template","Выберите шаблон письма"
 "Allow for Guests","Разрешить для гостей"
 "Catalog Structure","Структура каталога"
 "Catalog Id","Id каталога"
@@ -4560,6 +4654,7 @@ Cost,Себестоимость
 Development,Разработка
 Girth,Обхват
 in,в
+lb,фунт
 kg,кг
 Explanation,Объяснение
 "Items Shipped","Позиции отгрузки"
@@ -4579,6 +4674,7 @@ Origin,Происхождение
 "Track your order","Отслеживать ваш заказ"
 "Track All Shipments","Отслеживать все заказы"
 "Save & Generate","Сохранить & генерировать"
+"New Sitemap","Новая карта сайта"
 Sitemap,"Карта сайта"
 Filename,"Имя файла"
 "example: sitemap.xml","пример: sitemap.xml"
@@ -4617,26 +4713,44 @@ Support,Поддержка
 "[%1 months ago]","[%1 месяцев назад]"
 "[%1 years ago]","[%1 лет назад]"
 Model,Модель
+"Refund Online","Возврат средств онлайн"
+Method,Метод
+Modules,Модули
 "Refresh Status","Обновить статус"
 "Admin is a required field in each row","Администратор обязательное поле в каждой строке"
+"Image Opacity","Прозрачность изображения"
 "Related Products Rules","Правила сопутствующих товаров"
 "equal to",равно
 more,больше
 less,меньше
 Cross-sells,"Перекрёстные продажи"
+"Tax Rate Information","Информация о налоговой ставке"
 "Zip/Post Code","Почтовый индекс"
 "Save Rule","Сохранить правило"
+"Tax Rate","Ставка налога"
+"New Tax Rate","Новая ставка налога"
+"Tax Zones and Rates","Налоговые зоны и ставки"
+"New Tax Rule","Новое налоговое правило"
 "Use digits only for the zip code.","Используйте только цифры для почтового индекса."
 product,товар
+"An error occurred","Произошла ошибка"
 State/Region,Область/Регион
+"Save and Continue","Сохранить и продолжить"
 "Save Configuration","Сохранить конфигурацию"
+"Custom CSS","Пользовательский CSS"
+"Allowed file types *.css.","Допустимые типы файлов *.css."
 "JS Editor","JS редактор"
+"Allowed file types *.js.","Допустимые типы файлов *.js."
+Phrase,Фраза
+"Report All Bugs","Сообщить о всех ошибках"
 "%1 Item(s)","%1 элемент(ов)"
 Page,Страница
 "1 column","1 колонка"
 "Default welcome msg!","Приветствие по умолчанию!"
+"HTML Head","Заголовок HTML"
 "Favicon Icon","Значок Favicon"
 "Display Demo Store Notice","Отображать уведомление о том, что это демонстрационный сайт"
+"Skip to Content","Перейти к содержимому"
 Menu,Меню
 Account,"Учётная запись"
 "2 columns with left bar","2 колонки с левой полосой"
@@ -4647,6 +4761,7 @@ Translations,Переводы
 "Translation files","Файлы перевода"
 "Translation files.","Файлы перевода."
 "Please put your store into maintenance mode and redeploy static files after changing strategy","Пожалуйста, переведите свой магазин в режим обслуживания и повторно разверните статические файлы после изменения стратегии"
+"Remove %1","Удалить %1"
 Filters,Фильтры
 "Go to Details Page","Перейти на страницу редактирования"
 "Search by keyword","Искать по ключевому слову"
@@ -4702,19 +4817,36 @@ Keyword,"Ключевое слово"
 "Please enter issue number or start date for switch/solo card type.","Пожалуйста, введите номер задачи или дату начала для карты типа switch/solo."
 "Please enter positive number in this field.","Пожалуйста, введите положительное число в этом поле."
 "Please enter a valid value, ex: 10,20,30","Введите допустимое значение, ex: 10,20,30"
+Attention,Внимание
 Columns,Колонки
 "Active filters:","Активные фильтры:"
+"Clear all","Очистить все"
 "Apply Filters","Применить фильтры"
+"Please enter a quantity greater than 0.","Пожалуйста, введите количество больше 0."
+"Open in new tab","Открыть в новой вкладке"
 Container,Контейнер
+Category:,Категория:
+"Temporary (302)","Временный (302)"
+"Permanent (301)","Постоянное (301)"
 """url"" argument should be specified and not empty","Аргумент ""url"" должен быть указан и не пуст"
 "Save User","Сохранить пользователя"
 "Delete User","Удалить пользователя"
 "New User","Новый пользователь"
+"Please correct this email address:","Пожалуйста, исправьте этот адрес электронной почты:"
 "Please enter an email address.","Пожалуйста, введите адрес электронной почты."
+"You deleted the user.","Вы удалили пользователя."
+"An error occurred while deleting this role.","Произошла ошибка при удалении этой роли."
+"First Name is a required field.","Имя является обязательным полем."
+"Last Name is a required field.","Фамилия является обязательным полем."
+"Password is required field.","Пароль является обязательным полем."
+"Your password must be at least %1 characters.","Ваш пароль должен содержать не менее %1 символов."
 "Email address","Адрес электронной почты"
 "Retrieve Password","Восстановить пароль"
 "Forgot your password?","Забыли Ваш пароль?"
-"Hello,","Привет,"
+"Reset a Password","Сбросить пароль"
+"User Roles","Роли пользователей"
+"Lockout Time (minutes)","Время блокировки (в минутах)"
+"Password Lifetime (days)","Время жизни пароля (в днях)"
 "Last login","Последнее посещение"
 Failures,Неудачи
 Other,Другие
@@ -4728,17 +4860,30 @@ Chapter/Section,Глава/Раздел
 "Enable Pagination","Включить разбиение на страницы"
 "Menu Layout","Макет меню"
 "List Type","Тип списка"
+"Remove from tree.","Удалить из дерева."
 "Page ID","ID страницы"
 Hierarchy,Иерархия
 "Something went wrong while copying the hierarchy.","Что-то пошло не так при копировании иерархии."
+"No nodes are available","Нет доступных узлов"
 "Not Selected","Не выбрано"
+Page:,Страница:
+"Save and publish.","Сохранить и опубликовать."
+"Save as new version.","Сохранить как новую версию."
+"Save and continue edit.","Сохранить и продолжить редактирование."
+"Please select version(s).","Пожалуйста, выберите версию(и)."
+"Please wait...","Пожалуйста подождите..."
+Author:,Автор:
 "Search All Products","Искать все товары"
 "Add Product by SKU","Добавить товар по артикулу"
 "%s SKU(s) processed successfully","%s артикул(ов) успешно обработано"
 "%1 doesn't implement SortInterface","%1 не реализует SortInterface"
+"Price: Low to high","Цена: от низкой до высокой"
+"SKU: Ascending","Артикул: по возрастанию"
+"SKU: Descending","По артикулу: по убыванию"
 Attribute,Атрибут
 Operator,Оператор
 "Add Condition","Добавить условие"
+"Save and Close","Сохранить и закрыть"
 "Invalid XML","Неверный XML"
 "Create Customer","Создать пользователя"
 "Edit Customer","Редактирование покупателя"
@@ -4878,6 +5023,7 @@ Worldpay,WorldPay
 "Set Order Status to Suspected Fraud for Postcode AVS","Установить статус заказа мошенничества для почтового индекса AVS"
 "Payment was canceled.","Оплата была отменена."
 "Your payment has been successfully processed by our shop system.","Ваш платеж успешно обработан нашей системой магазина."
+"Please ","Пожалуйста "
 "Welcome to %store_name.","Добро пожаловать в %store_name."
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Для входа на наш сайт, используйте эти учетные данные во время оформления заказа или на странице <a href=""%customer_url"">Мой аккаунт</a>:"
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Забыл пароль учетной записи? Нажмите <a href=""%reset_url"">здесь</a>, чтобы сбросить его."
@@ -4978,7 +5124,6 @@ Translate,Перевести
 "Please enter a valid year (1900-%1).","Пожалуйста, введите правильный год (1900-%1)."
 "Please enter a valid day (1-%1).","Пожалуйста, введите правильный день(1-%1)."
 "Please enter a date from the past.","Пожалуйста, введите дату из прошлого."
-"Please enter a quantity greater than 0.","Пожалуйста, введите количество больше 0."
 "You can buy this product only in quantities of %1 at a time.","Вы можете купить этот продукт только в количестве %1, за раз."
 "No marginal white space please","Пожалуйста, не используйте пробелы в начале и конце."
 "First character must be letter.","Первый символ должен быть буквой."
