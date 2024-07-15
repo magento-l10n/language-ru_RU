@@ -250,6 +250,7 @@ Synonym,Синоним
 "There was an error save new configuration value.","Ошибка сохранения нового значения конфигурации."
 "--Please Select--","-- Выберите --"
 "Command was not found.","Команда не найдена."
+"Not valid cipher method.","Неверный метод шифрования."
 "Encryption key can't be empty.","Ключ шифрования не может быть пустым."
 "Source ""%1"" is not exist","Источник ""%1"" не существует"
 "These arguments can't be empty ""%1""","Эти аргументы не могут быть пустыми ""%1"""
@@ -291,6 +292,7 @@ Industry,Промышленность
 "Pharma and Medical Devices","Фармацевтических и медицинских приборов"
 "Technology B2B","Технология B2B"
 "Please select an industry.","Пожалуйста, выберите отрасль."
+"Enter the encryption key and try again.","Введите ключ шифрования и повторите попытку."
 "Retry Synchronization","Повторите попытку синхронизации"
 Done,Выполнено
 Retry,Повторить
@@ -620,6 +622,7 @@ System,Система
 YTD,"C начала года"
 2YTD,"С начала прошлого года"
 "Authentication storage is incorrect.","Проверка магазина некорректна."
+"Authentication error occurred.","Произошла ошибка аутентификации."
 Order,Заказ
 "Order #%1","Заказ #%1"
 "Sorry, you need permissions to view this content.","Извините, у вас должны быть разрешения на просмотр этого содержимого."
@@ -694,6 +697,7 @@ selected,выбранные
 "The information in this tab has been changed.","На этой вкладке были изменена информация."
 Loading...,Загрузка...
 "We could not detect a size.","Мы не смогли определить размер."
+"This operation can take a long time","Эта операция может занять много времени"
 "Allow everything","Разрешить все"
 "Magento Admin","Администратор Magento"
 "Global Search","Глобальный поиск"
@@ -711,6 +715,7 @@ Attributes,Атрибуты
 "Connect Manager","Подключить менеджер"
 "Package Extensions","Пакет расширений"
 Tools,Инструменты
+"Cache Types Management","Управление типами кэша"
 "Flush Js/Css","Очистить JS/CSS"
 "Flush Static Files","Очистка статических файлов"
 Currency,Валюта
@@ -850,11 +855,19 @@ Pagination,Пагинация
 "Theme Name","Название темы"
 "Unable to delete website. Please, try again later.","Не удается удалить веб-сайт. Пожалуйста, повторите попытку позже."
 "Access denied","Доступ запрещен"
+"User-Agent Exceptions","User-Agent исключения"
+"Values less than 60 are ignored.","Значения меньше 60 игнорируются."
+"Search String","Строка поиска"
 "Page not found.","Страница не найдена."
 "When the adapter was changed, please flush Catalog Images Cache.","Пожалуйста, очистите кэш изображений каталога после изменения адаптера."
 "Maximum Width","Максимальная ширина"
+"Maximum allowed width for uploaded image.","Максимальная допустимая ширина для загруженного изображения."
 "Maximum Height","Максимальная высота"
+"Maximum allowed height for uploaded image.","Максимально допустимая высота загруженного изображения."
+"Enter https protocol to use Secure URLs in Admin.","Введите протокол https для использования безопасных URL-адресов в Admin."
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Если значение не указано, используется системное значение по умолчанию. Система по умолчанию может быть изменена с помощью сторонних расширений."
+"Save &amp; Continue","Сохранить &amp; продолжить"
+"Save &amp; Close","Сохранить &amp; закрыть"
 "System Backup","Резервное копирование системы"
 "Database and Media Backup","Резервное копирование БД и файлов Media"
 "Database Backup","Резервное копирование БД"
@@ -917,6 +930,7 @@ Exclude,Исключить
 "Create Backup","Создать резервную копию"
 Rollback,Откат
 "Enable Scheduled Backup","Включение резервного копирования по расписанию"
+"Backup Type","Тип резервного копирования"
 Frequency,Периодичность
 "Maintenance Mode","Режим обслуживания"
 "Are you sure you want to delete the selected backup(s)?","Вы уверены, что хотите удалить выбранный backup(s)?"
@@ -1011,6 +1025,7 @@ Reset,Сброс
 "Restrict by Dynamic Block Types","Ограничьте типы динамических блоков"
 "Specify Dynamic Blocks","Укажите динамические блоки"
 "Dynamic Block Inline Template","Шаблон встроенного динамического блока"
+"General Information","Общая информация"
 "Cart Price Rule Related","Связанное ценовое правило корзины"
 "Catalog Price Rule Related","Связанные правила цены каталога"
 "All Segments","Все сегменты"
@@ -1757,7 +1772,6 @@ Done,Готово
 name,название
 "Copy Data from","Копировать данные из"
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Если существует без пользовательских родительской категории, пожалуйста, используйте по умолчанию родительской категории. Вы можете переназначить категорию в любое время в <a href=""%1"" target=""_blank"">продукты &gt; категории</a>."
-"This operation can take a long time","Эта операция может занять много времени"
 "Collapse All","Свернуть всё"
 "Expand All","Развернуть всё"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Подтвердите переключение сайта. Все данные, которые не были сохранены, будут потеряны."
@@ -2035,7 +2049,7 @@ Events,События
 "Catalog Event Information","Информация о событии каталога"
 Upcoming,Предстоящие
 Open,Открыть
-Closed,Закрыть
+Closed,Закрыт
 "Display Countdown Ticker On","Экран обратного отсчета дисплея включен"
 "Category Page","Страница категории"
 "Product Page","Страница товара"
@@ -2439,7 +2453,6 @@ View,Просмотр
 "Contents of a Static Block","Содержание статического блока"
 Block,Блок
 "Select Block...","Выберите блок..."
-"General Information","Общая информация"
 "Enable Block","Включить блок"
 "Block Title","Заголовок блока"
 "Are you sure you want to delete selected items?","Вы уверены, что хотите удалить выбранные элементы?"
@@ -2716,7 +2729,6 @@ Operation,Действие
 "Save Config","Сохранить настройки"
 "Use system value","Использовать системные значения"
 Add,Добавить
-"Search String","Строка поиска"
 "Design Theme","Тема Дизайн"
 "You saved the configuration.","Вы сохранили настройки."
 "Something went wrong while saving this configuration:","Что-то пошло не так во время сохранения этой конфигурации:"
@@ -3655,12 +3667,15 @@ Error:,Ошибка:
 "Shipping & Handling","Доставка и обработка"
 Qty:,Кол-во:
 "Qty: ","Кол-во: "
+Comments,Комментарии
 Expires,Истекает
 "Enter SKU","Введите SKU"
 Created:,Создан:
 "No shipping information available","Информация о доставке недоступна"
 "No shipping information available.","Информация о доставке недоступна."
 "Thank you,","Спасибо,"
+"Cancel coupon","Отменить купон"
+"Apply Gift Card","Применить подарочную карту"
 "Go to Checkout","Оформить заказ"
 "Go to Checkout?","Оформить заказ?"
 "Created Date","Дата создания"
@@ -4006,6 +4021,7 @@ Returned,Возвращено
 Resolution,Разрешение
 Split,Разделить
 "Return Information","Информация о возврате"
+"Comma separated","Разделенные запятой"
 "Visible to Customer","Видимый для клиента"
 "Submit Returns","Отправить возврат"
 "Add Selected Product(s) to returns","Добавление выбранных продуктов к возврату"
@@ -4032,6 +4048,7 @@ Split,Разделить
 "Return Date: ","Дата возврата: "
 "Invalid carrier: %1","Неправильная служба доставки: %1"
 "Shipment does not exists.","Отгрузка не существует."
+"All Items","Все элементы"
 "Request Details","Детали запроса"
 "Customer Name","Имя клиента"
 "Visible on Storefront","Видимый в пользовательской части"
