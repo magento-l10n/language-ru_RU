@@ -2322,7 +2322,7 @@ Error!,Ошибка!
 "Proceed to Checkout","Перейти к оформлению заказа"
 "Your order number is: %1.","Ваш номер заказа: %1."
 "Your order # is: <span>%1</span>.","Ваш заказ №: <span>%1</span>."
-"We'll email you an order confirmation with details and tracking info.","Мы вышлем вам подтверждение заказа с деталями о отслеживании."
+"We'll email you an order confirmation with details and tracking info.","Мы вышлем вам подтверждение заказа с деталями об отслеживании."
 Reason,Причина
 "Checkout Type","Тип проверки"
 Customer:,Клиент:
@@ -3743,6 +3743,8 @@ Wishlist,"Список желаний"
 "Shipping To","Доставка в"
 "Order Review","Обзор заказа"
 "Grand Total:","Общий итог:"
+"For successfully ordered items, you'll receive a confirmation email including order numbers, tracking information, and more details.","Для успешно заказанных товаров вы получите подтверждение по электронной почте с номером заказа, информацией об отслеживании и другими деталями."
+"For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details.","Для успешно заказанных товаров вы получите подтверждение по электронной почте с номером заказа, информацией об отслеживании и другими деталями."
 "Review Order","Просмотр заказа"
 Error:,Ошибка:
 "Save as Draft","Сохранить как черновик"
@@ -4521,7 +4523,6 @@ Operations,Операция
 "Enable Archiving","Включить архивацию"
 "Mass Add","Массовое добавление"
 "Sales Archive","Архив продаж"
-"All Store Views","Хранилище всех просмотров"
 "Go to Archive","Перейти в архив"
 "Are you sure you want to delete this?","Вы уверены, что хотите это удалить?"
 Labels,Метки
