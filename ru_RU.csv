@@ -454,7 +454,7 @@ Shipping,Доставка
 "Media (.avi, .flv, .swf)","Медиа (.avi, .flv и .swf)"
 "All Files","Все файлы"
 "Reset to Default","Сброс по умолчанию"
-"All Store Views","Хранилище всех просмотров"
+"All Store Views","Все представления магазина"
 "What is this?","Что это?"
 "Save Account","Сохранить учетную запись"
 "My Account","Моя учётная запись"
@@ -2964,7 +2964,7 @@ Paused,Приостановлено
 Unknown,Неизвестно
 "Bill-to Name","Имя плательщика"
 "Ship-to Name","Имя получателя"
-"Purchase Point","Очки покупок"
+"Purchase Point","Место покупки"
 "There are no items in customer's shopping cart.","В корзине покупателей нет товаров."
 Confirmed,Подтверждено
 "Confirmation Required","Необходимо подтверждение"
@@ -3689,6 +3689,8 @@ Send,Отправить
 Create,Создать
 "System Configuration","Конфигурация системы"
 "Newsletter Queue","Очередь рассылки"
+"Newsletter Subscribers","Подписчики рассылки"
+"Sales Orders",Заказы
 "Sales Shipments","Отгрузки заказов"
 "Manage Design","Управление дизайном"
 "Tax Rules","Налоговые правила"
@@ -3747,9 +3749,12 @@ Error:,Ошибка:
 "Shipping & Handling","Доставка и обработка"
 Qty:,Кол-во:
 "Qty: ","Кол-во: "
+Quotes,Корзины
 Comments,Комментарии
 Expires,Истекает
 "Enter SKU","Введите SKU"
+"Show My Orders","Показать мои заказы"
+"Show All Orders","Показать все заказы"
 Created:,Создан:
 "No shipping information available","Информация о доставке недоступна"
 "No shipping information available.","Информация о доставке недоступна."
@@ -3950,6 +3955,7 @@ Carts,Корзины
 Coupon,Купон
 "Select Rule...","Выберите правило..."
 "Reminder Rules","Правила напоминания"
+"Email Reminders","Напоминания по электронной почте"
 Hourly,"Каждый час"
 "5 minutes","5 минут"
 "10 minutes","10 минут"
@@ -3986,6 +3992,7 @@ Review,Отзыв
 Reviews,Отзывы
 "Product Reviews","Обзор товара"
 Coupons,Купоны
+"Orders Report","Отчет по заказам"
 "Abandoned Carts","Заброшенные корзины"
 Statistics,Статистика
 "Select Date","Выберите дату"
@@ -4385,7 +4392,9 @@ Complete,Завершен
 "Click to change shipping method","Нажмите, чтобы изменить способ доставки"
 "Get shipping methods and rates","Получить способы доставки и тарифы"
 "You don't need to select a shipping method.","Вам не нужно выбирать способ доставки."
+"Customer's Activities","Действия клиента"
 "Append Comments","Добавить комментарии"
+"Email Order Confirmation","Письмо с подтверждением заказа"
 "Payment &amp; Shipping Method","Оплата и способ доставки"
 "The order was placed using %1.","Заказ был размещен с использованием %1."
 "Qty to Refund","Количество для возврата"
@@ -4400,6 +4409,7 @@ Complete,Завершен
 "To Name","Имя получателя"
 "Notification Not Applicable","Уведомление не применимо"
 "Order & Account Information","Информация о Заказе и Учётной записи"
+"The order confirmation email was sent","Письмо с подтверждением заказа отправлено"
 "The order confirmation email is not sent","Письмо с подтверждением заказа не было отправлено"
 "Order Date","Дата заказа"
 "Order Date (%1)","Дата заказа (%1)"
@@ -4421,6 +4431,7 @@ Complete,Завершен
 "Refund #","Возврат #"
 "Print Refund","Печать возврата"
 "Ship To","Доставить в"
+"You have placed no orders.","Вы не разместили заказов."
 "Print Order","Печать Заказа"
 "Print All Invoices","Печать всех счетов"
 "Invoice #","Счет #"
@@ -4462,7 +4473,9 @@ Operations,Операция
 "Logo for HTML Print View","Логотип для просмотра HTML печати"
 "Minimum Order Amount","Минимальная сумма заказа"
 "Include Tax to Amount","Включать налог в сумму"
+"Orders Cron Settings","Настройки cron заказов"
 "Asynchronous sending","Асинхронная отправка"
+"New Order Confirmation Email Sender","Отправитель письма подтверждения нового заказа"
 "Shipment Comments","Комментарии к отправке"
 "Display Order ID in Header","Отображать ID заказа в заголовке"
 "Asynchronous indexing","Асинхронный индексирование"
@@ -4504,9 +4517,11 @@ Operations,Операция
 "We have removed the order from the archive.","Мы удалили заказ из архива."
 "Please specify the order ID to be removed from archive.","Укажите ID заказа для удаления из архива."
 "Restore from Archive","Восстановить из архива"
+"Orders, Invoices, Shipments, Credit Memos Archiving","Архивация заказов, счетов, отгрузок, кредитных авизо"
 "Enable Archiving","Включить архивацию"
 "Mass Add","Массовое добавление"
 "Sales Archive","Архив продаж"
+"All Store Views","Хранилище всех просмотров"
 "Go to Archive","Перейти в архив"
 "Are you sure you want to delete this?","Вы уверены, что хотите это удалить?"
 Labels,Метки
@@ -4572,6 +4587,7 @@ Successful,Успешно
 "You deleted the search.","Вы удалили поиск."
 "This search no longer exists.","Этот поиск больше не существует."
 "Edit Search","Редактировать поиск"
+"    All Store Views","    Все представления магазина"
 "Search entire store here...","Ищите здесь..."
 "There are no search terms available.","Нет доступных поисковых запросов."
 "Search Engine","Поисковая система"
@@ -4743,6 +4759,7 @@ State/Region,Область/Регион
 "Allowed file types *.js.","Допустимые типы файлов *.js."
 Phrase,Фраза
 "Report All Bugs","Сообщить о всех ошибках"
+"This is demo store. No orders will be fulfilled.","Это демо-магазин. Все заказы будут игнорироваться."
 "%1 Item(s)","%1 элемент(ов)"
 Page,Страница
 "1 column","1 колонка"
@@ -4756,6 +4773,7 @@ Account,"Учётная запись"
 "2 columns with left bar","2 колонки с левой полосой"
 "2 columns with right bar","2 колонки с правой полосой"
 "3 columns","3 колонки"
+"This is a demo store. No orders will be fulfilled.","Это демо-магазин. Все заказы будут игнорироваться."
 "Error while translating phrase ""%s"" in file %s.","Ошибка при переводе строки ""%s"" в файле %s."
 Translations,Переводы
 "Translation files","Файлы перевода"
@@ -4764,6 +4782,7 @@ Translations,Переводы
 "Remove %1","Удалить %1"
 Filters,Фильтры
 "Go to Details Page","Перейти на страницу редактирования"
+"Default View","Вид по умолчанию"
 "Search by keyword","Искать по ключевому слову"
 Keyword,"Ключевое слово"
 "Please enter {0} words or less.","Пожалуйста, введите {0} слов или меньше."
@@ -4945,6 +4964,7 @@ Widgets,Виджеты
 description,описание
 "We cannot create the widget instance because it is missing required information.","Нельзя создать экземпляр виджета потому, что отсутствует необходимая информация."
 "Specific %1","Конкретные %1"
+"Orders and Returns Search Form","Форма поиска заказов и возвратов"
 "The text of the link to the My Account &gt; Order by SKU page","Текст ссылки на мой аккаунт &gt; Сортировка страниц по SKU"
 "Widget ID","Id виджета"
 "My Wish List","Мой список желаний"
