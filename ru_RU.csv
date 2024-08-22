@@ -7,6 +7,7 @@ None,Нет
 "You need more permissions to view this item.","У вас недостаточно прав для просмотра этого элемента."
 "Incorrect website ID: %1","Некорректный ID веб-сайта: %1"
 "You need more permissions to access website ""%1"".","У вас недостаточно прав для доступа к веб-сайту «%1»."
+"Incorrect store ID: %1","Некорректный ID магазина: %1"
 "You need more permissions to save this setting.","У вас недостаточно прав для сохранения этого параметра."
 "Role Scopes","Области ролей"
 Custom,Выборочный
@@ -112,6 +113,7 @@ Configure,Настроить
 "Alert me when this item is available.","Сообщите мне, когда этот товар будет доступен."
 "We can't find this customer.","Мы не можем найти этого клиента."
 "Shopping cart management is disabled for this customer.","Редактирование корзины отключено для этого клиента."
+"We can't find this store.","Мы не можем найти этот магазин."
 Customers,Покупатели
 "Shopping Cart",Корзина
 "You do not have access to this.","Доступ закрыт."
@@ -250,6 +252,8 @@ Synonym,Синоним
 "There was an error save new configuration value.","Ошибка сохранения нового значения конфигурации."
 "--Please Select--","-- Выберите --"
 "Command was not found.","Команда не найдена."
+"Input data must be string or convertible into string.","Введенные данные должны быть строчными или конвертируемыми в строку."
+"Input data must be non-empty string.","Входные данные должны быть не пустой строкой."
 "Not valid cipher method.","Неверный метод шифрования."
 "Encryption key can't be empty.","Ключ шифрования не может быть пустым."
 "Source ""%1"" is not exist","Источник ""%1"" не существует"
@@ -665,6 +669,7 @@ Minute,Минута
 "To use this website you must first enable JavaScript in your browser.","Чтобы использовать этот веб-сайт необходимо сначала включить JavaScript в вашем браузере."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Это демонстрационный магазин. Любые заказы, оформленные на этом сайте, не будут обработаны или выполнены."
 "Report an Issue","Сообщить о проблеме"
+"Store View:","Представление магазина:"
 "Stores Configuration","Конфигурация Магазина"
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Пожалуйста, подтвердите переключение области. Все данные, которые не были сохранены, будут потеряны."
 "Additional Cache Management","Управление дополнительным кэшем"
@@ -716,6 +721,7 @@ Attributes,Атрибуты
 "Package Extensions","Пакет расширений"
 Tools,Инструменты
 "Cache Types Management","Управление типами кэша"
+"Refresh Cache Type","Обновить тип кэша"
 "Flush Js/Css","Очистить JS/CSS"
 "Flush Static Files","Очистка статических файлов"
 Currency,Валюта
@@ -856,6 +862,7 @@ Pagination,Пагинация
 "Unable to delete website. Please, try again later.","Не удается удалить веб-сайт. Пожалуйста, повторите попытку позже."
 "Access denied","Доступ запрещен"
 "Report Bugs","Сообщить об ошибках"
+"Design Theme","Тема оформления"
 "User-Agent Exceptions","User-Agent исключения"
 "Values less than 60 are ignored.","Значения меньше 60 игнорируются."
 "Search String","Строка поиска"
@@ -867,9 +874,12 @@ Pagination,Пагинация
 "Maximum allowed height for uploaded image.","Максимально допустимая высота загруженного изображения."
 "Enter https protocol to use Secure URLs in Admin.","Введите протокол https для использования безопасных URL-адресов в Admin."
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Если значение не указано, используется системное значение по умолчанию. Система по умолчанию может быть изменена с помощью сторонних расширений."
+"These cache type(s) don't exist: %1","Данные тип(ы) кэша не существует: %1"
 "Save &amp; Continue","Сохранить &amp; продолжить"
 "Save &amp; Close","Сохранить &amp; закрыть"
 "Save &amp; New","Сохранить &amp; создать"
+"Enable Template Path Hints for Storefront","Включить подсказки путей шаблонов для магазина"
+"Enable Template Path Hints for Admin","Включить подсказки путей шаблонов для панели администрирования"
 "System Backup","Резервное копирование системы"
 "Database and Media Backup","Резервное копирование БД и файлов Media"
 "Database Backup","Резервное копирование БД"
@@ -943,6 +953,7 @@ Download,Скачать
 "Backup Settings","Настройки резервного копирования"
 "Enable Backup","Включить резервное копирование"
 "Scheduled Backup Type","Тип запланированного резервного копирования"
+"Disabled by default for security reasons","Отключено по умолчанию по соображениям безопасности"
 Banners,Баннеры
 "Add Banner","Добавить баннер"
 "Save Banner","Сохранить баннер"
@@ -1028,6 +1039,9 @@ Reset,Сброс
 "Specify Dynamic Blocks","Укажите динамические блоки"
 "Dynamic Block Inline Template","Шаблон встроенного динамического блока"
 "General Information","Общая информация"
+"Enable Dynamic Block","Включить активный блок"
+"Use Default Value","Использовать значение по умолчанию"
+"Add Selected","Добавить выбранное"
 "Cart Price Rule Related","Связанное ценовое правило корзины"
 "Catalog Price Rule Related","Связанные правила цены каталога"
 "All Segments","Все сегменты"
@@ -1289,11 +1303,12 @@ Fixed,Исправлено
 "Add Products to Option","Добавить товар для опции"
 "Delete Option","Удалить опцию"
 "What are you looking for?","Что вы ищете?"
-"Use Default Value","Использовать значение по умолчанию"
 "There is no defined renderer for ""%1"" option type.","Нет определенного модуля подготовки отчетов для типа опции «%1»."
 "Could not save child: ""%1""","Не удалось сохранить потомка: «%1»"
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Товар с указанным sku: «%1» не содержит параметр: «%2»"
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Потомок с указанной sku: «%1» уже назначен к товару: «%2»"
+"%fieldName is a required field.","%fieldName является обязательным полем."
+"Cannot delete option with id %1","Не удается удалить опцию с идентификатором %1"
 "Price Range","Диапазон цен"
 "As Low as","Так же низко как"
 Together,Вместе
@@ -1354,6 +1369,7 @@ Message:,Сообщение:
 "Qty Shipped","Кол-во отправленных"
 "Add Products to New Option","Добавить товары новому варианту"
 "Add Products to Option ""%1""","Добавить товары в вариант «%1»"
+"Special Price","Специальная цена"
 """option_id"" and ""parent_id"" values should be specified","Должны быть указаны значения ""option_id"" и ""parent_id"""
 """sku"" value should be specified","Должно быть указано значение ""sku"""
 Always,Всегда
@@ -1594,13 +1610,14 @@ List,Список
 "Something went wrong while getting the image url.","Что-то пошло не так, при получении адреса изображения url."
 "Can't delete root category.","Невозможно удалить корневую категорию."
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Сортировка по умолчанию не приминима для данного продукта, сортировать по."
-"No layout updates","Нет обновлений расположения"
+"No layout updates","Нет обновлений макета"
 "Products only","Только товары"
 "Static block only","Только статический блок"
 "Static block and products","Статический блок и товары"
 "Please select a static block.","Пожалуйста, выберите статический блок."
 frontend_label,внешнийинтерфейс_метка
 "Could not save product ""%1"" with position %2 to category %3","Не удалось сохранить продукт «%1» с позицией %2 категории %3"
+"Category does not contain specified product","В категории нет указанного продукта"
 "Could not save product ""%product"" with position %position to category %category","Не удалось сохранить продукт ""%product"" с позицией %p категории %c"
 "Operation do not allow to move a parent category to any of children category","Нельзя перенести родительскую категорию внутрь одного из её потомков"
 "Could not move category","Не удалось переместить категорию"
@@ -1746,7 +1763,6 @@ message,сообщение
 "Special Price From","Специальная цена от"
 Done,Готово
 "Product Alerts","Оповещения о продукте"
-"Add Selected","Добавить выбранное"
 "Select Attribute","Выберите атрибут"
 "Create New Attribute","Создать новый атрибут"
 "Customizable Options","Настраиваемые параметры"
@@ -1840,7 +1856,6 @@ Role,Роль
 "start typing to search attribute","начать вводить атрибут поиска"
 "Basic Settings","Основные настройки"
 "Advanced Settings","Расширенные настройки"
-"Special Price","Специальная цена"
 "Buy %1 for: ","Купить %1 для: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Купить %1 на %2 и <strong class=""benefit"">сохранить<span class=""percent tier-%3"">&nbsp;%4<div class=""notranslate"">%</div></strong>"
 "Buy %1 for %2 each","Купить %1 для %2"
@@ -2004,7 +2019,7 @@ Anchor,Якорь
 "Meta Description","Мета Описание"
 "Products in Category","Продукты в категории"
 Theme,Тема
-Layout,Раскладка
+Layout,Макет
 "Layout Update XML","Обновление макета XML"
 "Apply Design to Products","Применить дизайн продукции"
 "Schedule Design Update","График дизайн обновление"
@@ -2036,11 +2051,15 @@ Overview,Обзор
 "Recently Viewed","Недавно просмотренные"
 "Save Category","Сохранить категорию"
 "Delete Category","Удалить категорию"
+"New Root Category","Новая корневая категория"
 "Images and Videos","Изображения и видео"
 "Are you sure you want to delete this category?","Вы уверены, что вы хотите удалить эту категорию?"
 Ok,Oк
 Watermark,"Водяной знак"
 "Watermark Position","Позиция водяного знака"
+"Sort Products By","Сортировать продукты по"
+"Default Product Sorting","Сортировка продуктов по умолчанию"
+"Use Parent Category Settings","Использовать настройки родительской категории"
 "Page not found","Страница не найдена"
 from,от
 to,до
@@ -2050,6 +2069,7 @@ remaining,осталось
 "too many","слишком много"
 "This value does not follow the specified format (for example, 200X300).","Это значение не соответствует указанному формату (например, 200X300)."
 Quality,Качество
+"Attributes were missing and must be specified.","Атрибуты отсутствуют и должны быть указаны."
 "The value of Admin must be unique. (%1)","Значение Admin должно быть уникальным. (%1)"
 "The product can't be saved.","Товар не может быть сохранён."
 "The product doesn't exist. Verify and try again.","Товар не существует. Проверьте и повторите попытку."
@@ -2058,6 +2078,9 @@ Quality,Качество
 "Category with ID: %s doesn't exist","Категория с ID: %s не существует"
 "Start typing to find products","Начните набирать для поиска товаров"
 "Product with ID: %s doesn't exist","Продукт с ID: %s не существует"
+"Default Layouts","Макет по умолчанию"
+"Default Product Layout","Макет товара по умолчанию"
+"Default Category Layout","Макет категории по умолчанию"
 "Edit Event","Редактирование события"
 "Add Event","Добавить событие"
 Events,События
@@ -2183,7 +2206,10 @@ Promo,Промо
 "Unknown action.","Неизвестное действие."
 "Update the Product","Обновление товара"
 "Rule price","Правило цены"
+"To Fixed Value","К фиксированному значению"
+"To Percentage","К процентному значению"
 "By Fixed value","По фиксированному значению"
+"By Percentage","На процент"
 "Update product's %1 %2: %3","Обновление продукта %1 %2: %3"
 "Apply as percentage of original","Подать заявку в процентах от оригинала"
 "Apply as fixed amount","Применять как фиксированную сумму"
@@ -2244,10 +2270,8 @@ Relevance,Релевантность
 "Update %1 from %2 to %3.","Обновить %1 с %2 до %3."
 View/Edit,Просмотр/редактирование
 Preview,"Предварительный просмотр"
-"Store View:","Представление магазина:"
 "Sort Products By","Сортировать товары по"
 "Default Product Sorting","Сортировка по умолчанию"
-"Use Parent Category Settings","Использовать настройки родительской категории"
 "New Theme","Новая тема"
 "Remove Product from Update","Удалить продукт из обновления"
 "Currently Active",Активная
@@ -2327,6 +2351,7 @@ Reason,Причина
 "Checkout Type","Тип проверки"
 Customer:,Клиент:
 Total:,Всего:
+"Billing Address:","Платежный адрес:"
 "Shipping Address:","Адрес доставки:"
 "Shipping Method:","Способ доставки:"
 "Payment Method:","Метод оплаты:"
@@ -2483,7 +2508,9 @@ Block,Блок
 "Content Heading","Заголовок контента"
 "Page in Websites","Страница на веб-сайтах"
 "New Layout","Новый макет"
+"Custom Layout","Настраиваемый макет"
 "Edit Block '%1'","Редактировать блок '%1'"
+"Block Information","Информация о блоке"
 "Edit Page '%1'","Редактировать страницу '%1'"
 "Page Layout","Макет страницы"
 "Custom Layout Update XML","Обновление макета XML"
@@ -2703,7 +2730,6 @@ Suffix,Суффикс
 "Create New Company Account","Создать новую учетную запись компании"
 Team,Команда
 Users,Пользователи
-"%fieldName is a required field.","%fieldName является обязательным полем."
 "%fieldName is a required field","%fieldName обязательное поле"
 "Company Credit","Кредит компании"
 unavailable.,недоступно.
@@ -2749,6 +2775,7 @@ Operation,Действие
 "This company has no payment methods. Please contact store administrator.","У этой компании нет способов оплаты. Пожалуйста, свяжитесь с администратором магазина."
 "Default B2B Payment Methods","Методы оплаты B2B по умолчанию"
 "Payment Methods","Способы оплаты"
+"Use config settings","Использовать настройки конфигурации"
 "Default Config","Конфигурации по умолчанию"
 "Save Config","Сохранить настройки"
 "Use system value","Использовать системные значения"
@@ -4887,6 +4914,7 @@ Hierarchy,Иерархия
 "No nodes are available","Нет доступных узлов"
 "Not Selected","Не выбрано"
 Page:,Страница:
+"Default Layout for Hierarchy Menu","Макет по умолчанию для меню иерархии"
 "Save and publish.","Сохранить и опубликовать."
 "Save as new version.","Сохранить как новую версию."
 "Save and continue edit.","Сохранить и продолжить редактирование."
@@ -4939,13 +4967,13 @@ Choose...,Выберете...
 "Add Widget","Добавить виджет"
 "Widget ""%1""","Виджет «%1»"
 "New Widget Instance","Новый экземпляр виджета"
-"Custom Layouts","Пользовательские настройки"
+"Custom Layouts","Настраиваемый макет"
 "Page Layouts","Разметка страницы"
 "Please Select Container First","Пожалуйста, сначала выберите контейнер"
 "Design Package/Theme","Пакет/тема дизайна"
 "Widget Title","Название виджета"
 "Assign to Store Views","Назначить хранилище просмотров"
-"Layout Updates","Разметка обновлена"
+"Layout Updates","Обновления макета"
 "Anchor Categories","Закрепить категории"
 "Non-Anchor Categories","Не закреплённые категории"
 "All Product Types","Все типы товаров"
