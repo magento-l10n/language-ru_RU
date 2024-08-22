@@ -2722,6 +2722,7 @@ Gender,Пол
 Prefix,Префикс
 "Middle Name/Initial",Отчество/Инициалы
 Suffix,Суффикс
+"Customer Active","Клиент активен"
 "This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Клиент является пользователем другой компании. Если вы продолжите, клиент будет удален из текущей компании и привязан к выбранной компании."
 "Change Company?","Изменить компанию?"
 "Associate to Company","Связать с компанией"
@@ -3197,6 +3198,7 @@ Strong,Надежный
 "Show Prefix","Отображать префиксы"
 "Always optional.","Всегда необязательно."
 "Show Suffix","Показать суффикс"
+"The suffix that goes after name (Jr., Sr., etc.)","Суффикс, который идет после имени (Jr., Sr., и т. д.)"
 "Show Gender","Показывать пол"
 "Show Telephone","Показывать номер телефона"
 "Show Company","Показывать компанию"
@@ -3213,6 +3215,7 @@ Group,Группа
 "Account Lock","Блокировка учетной записи"
 "Last Activity","Последняя активность"
 "Customer Information","Информация клиента"
+"Send Welcome Email From","Отправить приветственное письмо с"
 Addresses,Адреса
 "Edit Account Information","Изменить сведения об учетной записи"
 "Password forgotten","Пароль забыт"
@@ -3226,6 +3229,8 @@ Addresses,Адреса
 "Please enter a last name.","Пожалуйста, введите фамилию."
 "Please enter a date of birth.","Пожалуйста, введите дату рождения."
 "Please enter a gender.","Пожалуйста, укажите пол."
+"Name Prefix","Префикс имени"
+"Name Suffix","Суффикс имени"
 "Balance Change","Изменение баланса"
 Balance,Баланс
 "Customer notified","Клиент уведомлен"
@@ -4786,6 +4791,7 @@ State/Region,Область/Регион
 "JS Editor","JS редактор"
 "Allowed file types *.js.","Допустимые типы файлов *.js."
 Phrase,Фраза
+Scope:,"Область применения:"
 "Report All Bugs","Сообщить о всех ошибках"
 "This is demo store. No orders will be fulfilled.","Это демо-магазин. Все заказы будут игнорироваться."
 "%1 Item(s)","%1 элемент(ов)"
