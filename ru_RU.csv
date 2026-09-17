@@ -3731,6 +3731,8 @@ Widget,Виджет
 "IP Address",IP-адрес
 Result,Результат
 "Full Details","Полная информация"
+"Close Session","Закрыть сессию"
+"You are connected as <strong>%1</strong> on %2","Вы подключены как <strong>%1</strong> на %2"
 Partners,Партнеры
 "More Partners","Больше партнеров"
 "Read More","Читать дальше"
