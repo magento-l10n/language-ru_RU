@@ -2614,12 +2614,12 @@ Blocked,Заблокировано
 "No such entity with id = %idValue","Нет такой сущности с id = %idValue"
 "Company admin","Администратор компании"
 "Company user","Пользователь компании"
+"Invalid value of ""%value"" provided for the %fieldName field.","Недопустимое значение «%value» для поля %fieldName."
 "Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Не удается задать «доступ» для ресурса, так как его родитель ресурса(-ов) установлен на «запретить»."
 "Invalid login or password.","Неверный логин или пароль."
 "This account is locked.","Этот профиль заблокирован."
 "Your account is not yet approved. If you have questions, please contact the seller.","Ваша учетная запись еще не подтверждена. Если у вас есть вопросы, пожалуйста, свяжитесь с продавцом."
 "There was an error saving custom attributes.","Произошла ошибка при сохранении пользовательских атрибутов."
-"Invalid value of ""%value"" provided for the %fieldName field.","Недопустимое значение «%value» для поля %fieldName."
 """%fieldName"" is required. Enter and try again.","""%fieldName"" обязательно. Введите и повторите попытку."
 "No such entity with %fieldName = %fieldValue","Нет такого объекта с %fieldName = %fieldValue"
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Эту роль нельзя удалить, поскольку пользователи назначены на него. Переназначьте пользователей к другой роли, чтобы продолжить."
@@ -2650,6 +2650,7 @@ Duplicate,Дублировать
 "Company Name","Название компании"
 "Customer Type:","Тип клиента:"
 Company:,Компания:
+"User Role","Роль пользователя"
 "Company Information","Информация о компании"
 "Company Legal Name","Юридическое название компании"
 "Company Email","E-mail компании"
@@ -2667,7 +2668,6 @@ Company:,Компания:
 "Add Team","Добавить команду"
 "Edit Selected","Изменить выбранные"
 "Delete Selected","Удалить выбранные"
-"User Role","Роль пользователя"
 "You don't have a company account yet.","У вас пока нет учетной записи компании."
 "VAT/TAX ID: ","НДС/НАЛОГ ID: "
 "You have no other address entries in your address book.","У вас нет других адресов в адресной книге."
@@ -2677,9 +2677,13 @@ Contacts,Контакты
 "Save Role","Сохранить роль"
 "Add New User","Создать пользователя"
 "Create an Account","Создание учетной записи"
+"Checkout (place order)","Чекаут (размещение заказа)"
+"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Клиент является пользователем другой компании. Если вы продолжите, клиент будет удален из текущей компании и привязан к выбранной компании."
+"Change Company?","Изменить компанию?"
+"%fieldName is a required field","%fieldName обязательное поле"
+"Your account is no longer active. You will not be able to use it for login.","Ваша учетная запись больше не активна. Вы не сможете использовать её для входа."
 "This action will replace your Company Admin.","Это действие заменит вашего Администратора компании."
 "Dear %name,","Уважаемый %name,"
-"Your account is no longer active. You will not be able to use it for login.","Ваша учетная запись больше не активна. Вы не сможете использовать её для входа."
 "If this is a mistake, please contact the seller.","Если это ошибка, пожалуйста, свяжитесь с продавцом."
 "Company: %company","Компания: %company"
 "When you sign in to your account, you will be able to:","Когда вы войдёте в свой аккаунт, вы будет иметь возможность:"
@@ -2692,11 +2696,9 @@ Proceed,Продолжить
 "Cannot delete the user","Не удается удалить пользователя"
 "Edit User","Редактировать пользователя"
 "Cannot Delete User","Не удается удалить пользователя"
-"Delete this user?","Удалить этого пользователя?"
 "Delete This Role?","Удалить эту роль?"
 "This action cannot be undone. Are you sure you want to delete this role?","Это действие нельзя отменить. Вы уверены, что хотите удалить эту роль?"
 "Cannot Delete Role","Не удается удалить роль"
-"Set Inactive",Деактивировать
 "Company Configuration","Конфигурация компании"
 Comma-separated,"Разделенные запятой"
 "Company Status Change","Изменение статуса компании"
@@ -2706,7 +2708,6 @@ Comma-separated,"Разделенные запятой"
 "Company User Management","Управление пользователями компании"
 "View roles and permissions","Просмотр ролей и разрешений"
 "Manage roles and permissions","Управление ролями и правами"
-"Checkout (place order)","Чекаут (размещение заказа)"
 "View orders","Просмотр заказов"
 "View orders of subordinate users","Просмотр заказов подчиненных пользователей"
 "Set a Company as Active","Активировать компанию"
@@ -2717,21 +2718,19 @@ Comment,Комментарий
 ZIP,Индекс
 "Company Admin","Администратор компании"
 Gender,Пол
+"Set Inactive",Деактивировать
 "Customer Type","Тип клиента"
 "Please specify the reason","Пожалуйста, укажите причину"
 Prefix,Префикс
 "Middle Name/Initial",Отчество/Инициалы
 Suffix,Суффикс
 "Customer Active","Клиент активен"
-"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Клиент является пользователем другой компании. Если вы продолжите, клиент будет удален из текущей компании и привязан к выбранной компании."
-"Change Company?","Изменить компанию?"
 "Associate to Company","Связать с компанией"
 "My Orders","Мои заказы"
 "Create New Customer","Создать нового клиента"
 "Create New Company Account","Создать новую учетную запись компании"
 Team,Команда
 Users,Пользователи
-"%fieldName is a required field","%fieldName обязательное поле"
 "Company Credit","Кредит компании"
 unavailable.,недоступно.
 "The requested Payment Method is not available.","Запрошенный метод оплаты недоступен."
